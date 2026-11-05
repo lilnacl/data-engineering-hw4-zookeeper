@@ -1,0 +1,21 @@
+{
+  "rows": 229388,
+  "selected_rows": 3123,
+  "chunks": 115,
+  "chunk_rows": 2000,
+  "workers": 4,
+  "combiner": true,
+  "retries": 1,
+  "s3_bytes": 847619384,
+  "emitted": [
+    15519,
+    61694,
+    216333
+  ],
+  "transferred_keys": [
+    6546,
+    45837,
+    192148
+  ],
+  "seconds": 3.0411494999425486
+}
