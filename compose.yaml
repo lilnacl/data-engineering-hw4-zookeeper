@@ -1,0 +1,69 @@
+name: data-engineering-hw4
+
+x-zookeeper: &zookeeper
+  image: zookeeper:3.9.6-jre-17
+  restart: unless-stopped
+  healthcheck:
+    test: ["CMD", "zkServer.sh", "status"]
+    interval: 10s
+    timeout: 5s
+    retries: 12
+    start_period: 15s
+
+x-zookeeper-environment: &zookeeper-environment
+  ZOO_TICK_TIME: "2000"
+  ZOO_INIT_LIMIT: "10"
+  ZOO_SYNC_LIMIT: "5"
+  ZOO_STANDALONE_ENABLED: "false"
+  ZOO_ADMINSERVER_ENABLED: "false"
+  ZOO_4LW_COMMANDS_WHITELIST: "srvr,stat,mntr,ruok"
+  ZOO_SERVERS: >-
+    server.1=zk1:2888:3888;2181
+    server.2=zk2:2888:3888;2181
+    server.3=zk3:2888:3888;2181
+  JVMFLAGS: "-Xms64m -Xmx256m"
+
+services:
+  zk1:
+    <<: *zookeeper
+    hostname: zk1
+    environment:
+      <<: *zookeeper-environment
+      ZOO_MY_ID: "1"
+    ports:
+      - "127.0.0.1:2181:2181"
+    volumes:
+      - zk1-data:/data
+      - zk1-datalog:/datalog
+
+  zk2:
+    <<: *zookeeper
+    hostname: zk2
+    environment:
+      <<: *zookeeper-environment
+      ZOO_MY_ID: "2"
+    ports:
+      - "127.0.0.1:2182:2181"
+    volumes:
+      - zk2-data:/data
+      - zk2-datalog:/datalog
+
+  zk3:
+    <<: *zookeeper
+    hostname: zk3
+    environment:
+      <<: *zookeeper-environment
+      ZOO_MY_ID: "3"
+    ports:
+      - "127.0.0.1:2183:2181"
+    volumes:
+      - zk3-data:/data
+      - zk3-datalog:/datalog
+
+volumes:
+  zk1-data:
+  zk1-datalog:
+  zk2-data:
+  zk2-datalog:
+  zk3-data:
+  zk3-datalog:
