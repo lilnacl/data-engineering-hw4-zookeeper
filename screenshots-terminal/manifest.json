@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-roles.png",
+    "width": 1288,
+    "height": 690,
+    "sha256": "8a7be5ac56db65069c1af7adfc7885029c5417bed8490b27e34992362c4659ca"
+  },
+  {
+    "file": "02-quorum.png",
+    "width": 1886,
+    "height": 622,
+    "sha256": "ca732e8ef97401a8a3f51bf52485b3e92f0118791974e0bb8be0326a3de83f45"
+  },
+  {
+    "file": "03-ephemeral.png",
+    "width": 1746,
+    "height": 404,
+    "sha256": "25c27878130ae421d056b8a14a9868dbae49de0733c0139f2356b497288667de"
+  },
+  {
+    "file": "04-without-fencing.png",
+    "width": 2608,
+    "height": 896,
+    "sha256": "df0c151c2b5a4c65a5d3229810af5e072c1831888c9213cc0695db6a401c6a02"
+  },
+  {
+    "file": "05-with-fencing.png",
+    "width": 2922,
+    "height": 910,
+    "sha256": "9df69fcde1b1777f3f2e47f6e00a5529bcfd306f0fbcc24ee3278fbce37022c8"
+  }
+]
