@@ -1,0 +1,18 @@
+Выдержка из успешного запуска zkCli.sh 2026-11-05 09:12:48 UTC.
+Код завершения: 0.
+
+Команды клиента:
+create /hw4-setup-smoke ready
+get /hw4-setup-smoke
+delete /hw4-setup-smoke
+ls /
+quit
+
+Вывод:
+[zk: zk1:2181(CONNECTED) 0] Created /hw4-setup-smoke
+[zk: zk1:2181(CONNECTED) 1] ready
+[zk: zk1:2181(CONNECTED) 2] [zk: zk1:2181(CONNECTED) 3] [zookeeper]
+[zk: zk1:2181(CONNECTED) 4]
+WatchedEvent state:Closed type:None path:null zxid: -1
+2026-11-05 09:12:48,490 [myid:] - INFO  [main:o.a.z.u.ServiceUtils@45] - Exiting JVM with code 0
+

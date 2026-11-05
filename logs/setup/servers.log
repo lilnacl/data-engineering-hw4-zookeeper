@@ -1,0 +1,1004 @@
+zk2-1  | 2026-11-05T08:27:36.779598250Z ZooKeeper JMX enabled by default
+zk2-1  | 2026-11-05T08:27:36.780500958Z Using config: /conf/zoo.cfg
+zk2-1  | 2026-11-05T08:27:37.065607625Z 2026-11-05 08:27:37,062 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: /conf/zoo.cfg
+zk2-1  | 2026-11-05T08:27:37.065619375Z 2026-11-05 08:27:37,065 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@431] - clientPort is not set
+zk2-1  | 2026-11-05T08:27:37.065654416Z 2026-11-05 08:27:37,065 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+zk2-1  | 2026-11-05T08:27:37.065968000Z 2026-11-05 08:27:37,065 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+zk2-1  | 2026-11-05T08:27:37.066586250Z 2026-11-05 08:27:37,065 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+zk2-1  | 2026-11-05T08:27:37.071401083Z 2026-11-05 08:27:37,071 [myid:2] - INFO  [main:o.a.z.s.DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+zk2-1  | 2026-11-05T08:27:37.071478791Z 2026-11-05 08:27:37,071 [myid:2] - INFO  [main:o.a.z.s.DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+zk2-1  | 2026-11-05T08:27:37.071564708Z 2026-11-05 08:27:37,071 [myid:2] - INFO  [main:o.a.z.s.DatadirCleanupManager@101] - Purge task is not scheduled.
+zk2-1  | 2026-11-05T08:27:37.072017916Z 2026-11-05 08:27:37,071 [myid:2] - INFO  [main:o.a.z.j.ManagedUtil@46] - Log4j 1.2 jmx support not found; jmx disabled.
+zk2-1  | 2026-11-05T08:27:37.072076333Z 2026-11-05 08:27:37,071 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeerMain@152] - Starting quorum peer, myid=2
+zk2-1  | 2026-11-05T08:27:37.077275542Z 2026-11-05 08:27:37,077 [myid:2] - INFO  [main:o.a.z.s.ServerMetrics@64] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@f2ff811
+zk2-1  | 2026-11-05T08:27:37.078661750Z 2026-11-05 08:27:37,078 [myid:2] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@51] - ACL digest algorithm is: SHA1
+zk2-1  | 2026-11-05T08:27:37.078743458Z 2026-11-05 08:27:37,078 [myid:2] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@65] - zookeeper.DigestAuthenticationProvider.enabled = true
+zk2-1  | 2026-11-05T08:27:37.082871292Z 2026-11-05 08:27:37,081 [myid:2] - INFO  [main:o.a.z.s.ServerCnxnFactory@172] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+zk2-1  | 2026-11-05T08:27:37.082877000Z 2026-11-05 08:27:37,082 [myid:2] - WARN  [main:o.a.z.s.ServerCnxnFactory@337] - maxCnxns is not configured, using default value 0.
+zk2-1  | 2026-11-05T08:27:37.083862042Z 2026-11-05 08:27:37,082 [myid:2] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@652] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+zk2-1  | 2026-11-05T08:27:37.085867292Z 2026-11-05 08:27:37,085 [myid:2] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@660] - binding to port /0.0.0.0:2181
+zk2-1  | 2026-11-05T08:27:37.089650250Z 2026-11-05 08:27:37,089 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@801] - zookeeper.quorumCnxnTimeoutMs=-1
+zk2-1  | 2026-11-05T08:27:37.091999208Z 2026-11-05 08:27:37,091 [myid:2] - INFO  [main:o.a.z.c.X509Util@84] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+zk2-1  | 2026-11-05T08:27:37.093863667Z 2026-11-05 08:27:37,093 [myid:2] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+zk2-1  | 2026-11-05T08:27:37.095656375Z 2026-11-05 08:27:37,095 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1786] - Local sessions disabled
+zk2-1  | 2026-11-05T08:27:37.095873542Z 2026-11-05 08:27:37,095 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1797] - Local session upgrading disabled
+zk2-1  | 2026-11-05T08:27:37.095877792Z 2026-11-05 08:27:37,095 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1764] - tickTime set to 2000
+zk2-1  | 2026-11-05T08:27:37.095966208Z 2026-11-05 08:27:37,095 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1808] - minSessionTimeout set to 4000
+zk2-1  | 2026-11-05T08:27:37.095992250Z 2026-11-05 08:27:37,095 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1819] - maxSessionTimeout set to 40000
+zk2-1  | 2026-11-05T08:27:37.096131708Z 2026-11-05 08:27:37,095 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1844] - initLimit set to 10
+zk2-1  | 2026-11-05T08:27:37.096146292Z 2026-11-05 08:27:37,096 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2031] - syncLimit set to 5
+zk1-1  | 2026-11-05T08:27:36.710986750Z ZooKeeper JMX enabled by default
+zk1-1  | 2026-11-05T08:27:36.711693291Z Using config: /conf/zoo.cfg
+zk1-1  | 2026-11-05T08:27:36.984595250Z 2026-11-05 08:27:36,982 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: /conf/zoo.cfg
+zk1-1  | 2026-11-05T08:27:36.985379500Z 2026-11-05 08:27:36,985 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@431] - clientPort is not set
+zk1-1  | 2026-11-05T08:27:36.985394125Z 2026-11-05 08:27:36,985 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+zk1-1  | 2026-11-05T08:27:36.985437000Z 2026-11-05 08:27:36,985 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+zk1-1  | 2026-11-05T08:27:36.986159375Z 2026-11-05 08:27:36,985 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+zk1-1  | 2026-11-05T08:27:36.992334166Z 2026-11-05 08:27:36,992 [myid:1] - INFO  [main:o.a.z.s.DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+zk1-1  | 2026-11-05T08:27:36.992346000Z 2026-11-05 08:27:36,992 [myid:1] - INFO  [main:o.a.z.s.DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+zk1-1  | 2026-11-05T08:27:36.992442125Z 2026-11-05 08:27:36,992 [myid:1] - INFO  [main:o.a.z.s.DatadirCleanupManager@101] - Purge task is not scheduled.
+zk1-1  | 2026-11-05T08:27:36.992855833Z 2026-11-05 08:27:36,992 [myid:1] - INFO  [main:o.a.z.j.ManagedUtil@46] - Log4j 1.2 jmx support not found; jmx disabled.
+zk1-1  | 2026-11-05T08:27:36.992912541Z 2026-11-05 08:27:36,992 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeerMain@152] - Starting quorum peer, myid=1
+zk1-1  | 2026-11-05T08:27:36.998885916Z 2026-11-05 08:27:36,997 [myid:1] - INFO  [main:o.a.z.s.ServerMetrics@64] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@f2ff811
+zk1-1  | 2026-11-05T08:27:36.999377000Z 2026-11-05 08:27:36,999 [myid:1] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@51] - ACL digest algorithm is: SHA1
+zk1-1  | 2026-11-05T08:27:36.999449708Z 2026-11-05 08:27:36,999 [myid:1] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@65] - zookeeper.DigestAuthenticationProvider.enabled = true
+zk1-1  | 2026-11-05T08:27:37.002141958Z 2026-11-05 08:27:37,001 [myid:1] - INFO  [main:o.a.z.s.ServerCnxnFactory@172] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+zk1-1  | 2026-11-05T08:27:37.002645291Z 2026-11-05 08:27:37,002 [myid:1] - WARN  [main:o.a.z.s.ServerCnxnFactory@337] - maxCnxns is not configured, using default value 0.
+zk1-1  | 2026-11-05T08:27:37.003361625Z 2026-11-05 08:27:37,003 [myid:1] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@652] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+zk1-1  | 2026-11-05T08:27:37.006212291Z 2026-11-05 08:27:37,006 [myid:1] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@660] - binding to port /0.0.0.0:2181
+zk1-1  | 2026-11-05T08:27:37.010214833Z 2026-11-05 08:27:37,009 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@801] - zookeeper.quorumCnxnTimeoutMs=-1
+zk1-1  | 2026-11-05T08:27:37.012482000Z 2026-11-05 08:27:37,011 [myid:1] - INFO  [main:o.a.z.c.X509Util@84] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+zk1-1  | 2026-11-05T08:27:37.013652375Z 2026-11-05 08:27:37,012 [myid:1] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+zk1-1  | 2026-11-05T08:27:37.015036625Z 2026-11-05 08:27:37,014 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1786] - Local sessions disabled
+zk1-1  | 2026-11-05T08:27:37.015062541Z 2026-11-05 08:27:37,014 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1797] - Local session upgrading disabled
+zk1-1  | 2026-11-05T08:27:37.015148458Z 2026-11-05 08:27:37,015 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1764] - tickTime set to 2000
+zk1-1  | 2026-11-05T08:27:37.015195083Z 2026-11-05 08:27:37,015 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1808] - minSessionTimeout set to 4000
+zk1-1  | 2026-11-05T08:27:37.015240208Z 2026-11-05 08:27:37,015 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1819] - maxSessionTimeout set to 40000
+zk1-1  | 2026-11-05T08:27:37.015294083Z 2026-11-05 08:27:37,015 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1844] - initLimit set to 10
+zk1-1  | 2026-11-05T08:27:37.015314541Z 2026-11-05 08:27:37,015 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2031] - syncLimit set to 5
+zk1-1  | 2026-11-05T08:27:37.015386000Z 2026-11-05 08:27:37,015 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2046] - connectToLearnerMasterLimit set to 0
+zk1-1  | 2026-11-05T08:27:37.020529541Z 2026-11-05 08:27:37,020 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+zk1-1  | 2026-11-05T08:27:37.020547083Z 2026-11-05 08:27:37,020 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -   ______                  _                                          
+zk1-1  | 2026-11-05T08:27:37.020587291Z 2026-11-05 08:27:37,020 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -  |___  /                 | |                                         
+zk1-1  | 2026-11-05T08:27:37.020589916Z 2026-11-05 08:27:37,020 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+zk1-1  | 2026-11-05T08:27:37.020590875Z 2026-11-05 08:27:37,020 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+zk1-1  | 2026-11-05T08:27:37.020606916Z 2026-11-05 08:27:37,020 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+zk1-1  | 2026-11-05T08:27:37.020664041Z 2026-11-05 08:27:37,020 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+zk1-1  | 2026-11-05T08:27:37.020668625Z 2026-11-05 08:27:37,020 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               | |                     
+zk1-1  | 2026-11-05T08:27:37.020700916Z 2026-11-05 08:27:37,020 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               |_|                     
+zk1-1  | 2026-11-05T08:27:37.020748625Z 2026-11-05 08:27:37,020 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+zk1-1  | 2026-11-05T08:27:37.021408625Z 2026-11-05 08:27:37,021 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:zookeeper.version=3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+zk1-1  | 2026-11-05T08:27:37.021905000Z 2026-11-05 08:27:37,021 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:host.name=zk1
+zk1-1  | 2026-11-05T08:27:37.021916708Z 2026-11-05 08:27:37,021 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.version=17.0.21
+zk1-1  | 2026-11-05T08:27:37.021918041Z 2026-11-05 08:27:37,021 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.vendor=Eclipse Adoptium
+zk1-1  | 2026-11-05T08:27:37.021919250Z 2026-11-05 08:27:37,021 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.home=/opt/java/openjdk
+zk1-1  | 2026-11-05T08:27:37.021922750Z 2026-11-05 08:27:37,021 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.class.path=/apache-zookeeper-3.9.6-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/classes:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/target/classes:/apache-zookeeper-3.9.6-bin/bin/../build/classes:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/target/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../build/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-prometheus-metrics-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-jute-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/snappy-java-1.1.10.5.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/slf4j-api-2.0.13.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_servlet-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_hotspot-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_common-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-native-unix-common-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-native-epoll-4.1.137.Final-linux-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-classes-epoll-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-classes-2.0.81.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-windows-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-aarch_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-aarch_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-resolver-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-handler-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-common-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-codec-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-buffer-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/metrics-core-4.1.12.1.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/logback-core-1.3.15.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/logback-classic-1.3.15.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jline-3.30.14-jdk8.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-util-ajax-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-util-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-servlet-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-server-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-security-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-io-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-http-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/javax.servlet-api-3.1.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-databind-2.22.2.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-core-2.22.2.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-annotations-2.22.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/commons-io-2.17.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/commons-cli-1.5.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/audience-annotations-0.12.0.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-*.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/src/main/resources/lib/*.jar:/conf:
+zk1-1  | 2026-11-05T08:27:37.021954458Z 2026-11-05 08:27:37,021 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+zk1-1  | 2026-11-05T08:27:37.022044750Z 2026-11-05 08:27:37,021 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.io.tmpdir=/tmp
+zk1-1  | 2026-11-05T08:27:37.022145083Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.compiler=<NA>
+zk1-1  | 2026-11-05T08:27:37.022245541Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.name=Linux
+zk1-1  | 2026-11-05T08:27:37.022251625Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.arch=aarch64
+zk1-1  | 2026-11-05T08:27:37.022252500Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.version=7.0.14-linuxkit
+zk1-1  | 2026-11-05T08:27:37.022354083Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:user.name=zookeeper
+zk1-1  | 2026-11-05T08:27:37.022355708Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:user.home=/home/zookeeper
+zk1-1  | 2026-11-05T08:27:37.022356791Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:user.dir=/apache-zookeeper-3.9.6-bin
+zk1-1  | 2026-11-05T08:27:37.022451416Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.free=45MB
+zk1-1  | 2026-11-05T08:27:37.022452708Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.max=256MB
+zk1-1  | 2026-11-05T08:27:37.022453458Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.total=66MB
+zk1-1  | 2026-11-05T08:27:37.022559125Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@151] - zookeeper.enableEagerACLCheck = false
+zk1-1  | 2026-11-05T08:27:37.022650083Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@164] - zookeeper.digest.enabled = true
+zk1-1  | 2026-11-05T08:27:37.022651208Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@168] - zookeeper.closeSessionTxn.enabled = true
+zk1-1  | 2026-11-05T08:27:37.022815250Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@2247] - zookeeper.serializeLastProcessedZxid.enabled = true
+zk1-1  | 2026-11-05T08:27:37.022874583Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@1585] - zookeeper.flushDelay = 0 ms
+zk1-1  | 2026-11-05T08:27:37.023869375Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@1594] - zookeeper.maxWriteQueuePollTime = 0 ms
+zk2-1  | 2026-11-05T08:27:37.096321708Z 2026-11-05 08:27:37,096 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2046] - connectToLearnerMasterLimit set to 0
+zk2-1  | 2026-11-05T08:27:37.101274500Z 2026-11-05 08:27:37,101 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+zk2-1  | 2026-11-05T08:27:37.101280292Z 2026-11-05 08:27:37,101 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -   ______                  _                                          
+zk2-1  | 2026-11-05T08:27:37.101307292Z 2026-11-05 08:27:37,101 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -  |___  /                 | |                                         
+zk2-1  | 2026-11-05T08:27:37.101398375Z 2026-11-05 08:27:37,101 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+zk2-1  | 2026-11-05T08:27:37.101419042Z 2026-11-05 08:27:37,101 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+zk2-1  | 2026-11-05T08:27:37.101508000Z 2026-11-05 08:27:37,101 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+zk2-1  | 2026-11-05T08:27:37.101521125Z 2026-11-05 08:27:37,101 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+zk2-1  | 2026-11-05T08:27:37.101583292Z 2026-11-05 08:27:37,101 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               | |                     
+zk2-1  | 2026-11-05T08:27:37.101585958Z 2026-11-05 08:27:37,101 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               |_|                     
+zk2-1  | 2026-11-05T08:27:37.101596042Z 2026-11-05 08:27:37,101 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+zk2-1  | 2026-11-05T08:27:37.102200500Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:zookeeper.version=3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+zk2-1  | 2026-11-05T08:27:37.102242792Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:host.name=zk2
+zk2-1  | 2026-11-05T08:27:37.102253375Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.version=17.0.21
+zk2-1  | 2026-11-05T08:27:37.102296583Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.vendor=Eclipse Adoptium
+zk2-1  | 2026-11-05T08:27:37.102443083Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.home=/opt/java/openjdk
+zk2-1  | 2026-11-05T08:27:37.103138167Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.class.path=/apache-zookeeper-3.9.6-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/classes:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/target/classes:/apache-zookeeper-3.9.6-bin/bin/../build/classes:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/target/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../build/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-prometheus-metrics-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-jute-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/snappy-java-1.1.10.5.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/slf4j-api-2.0.13.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_servlet-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_hotspot-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_common-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-native-unix-common-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-native-epoll-4.1.137.Final-linux-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-classes-epoll-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-classes-2.0.81.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-windows-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-aarch_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-aarch_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-resolver-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-handler-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-common-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-codec-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-buffer-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/metrics-core-4.1.12.1.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/logback-core-1.3.15.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/logback-classic-1.3.15.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jline-3.30.14-jdk8.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-util-ajax-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-util-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-servlet-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-server-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-security-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-io-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-http-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/javax.servlet-api-3.1.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-databind-2.22.2.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-core-2.22.2.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-annotations-2.22.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/commons-io-2.17.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/commons-cli-1.5.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/audience-annotations-0.12.0.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-*.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/src/main/resources/lib/*.jar:/conf:
+zk2-1  | 2026-11-05T08:27:37.103151958Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+zk2-1  | 2026-11-05T08:27:37.103153583Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.io.tmpdir=/tmp
+zk3-1  | 2026-11-05T08:27:36.864862791Z ZooKeeper JMX enabled by default
+zk3-1  | 2026-11-05T08:27:36.865780208Z Using config: /conf/zoo.cfg
+zk3-1  | 2026-11-05T08:27:37.152964667Z 2026-11-05 08:27:37,151 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: /conf/zoo.cfg
+zk3-1  | 2026-11-05T08:27:37.153958958Z 2026-11-05 08:27:37,153 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@431] - clientPort is not set
+zk3-1  | 2026-11-05T08:27:37.153964625Z 2026-11-05 08:27:37,153 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+zk3-1  | 2026-11-05T08:27:37.153965583Z 2026-11-05 08:27:37,153 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+zk2-1  | 2026-11-05T08:27:37.103154542Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.compiler=<NA>
+zk2-1  | 2026-11-05T08:27:37.103155208Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.name=Linux
+zk2-1  | 2026-11-05T08:27:37.103156000Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.arch=aarch64
+zk2-1  | 2026-11-05T08:27:37.103156708Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.version=7.0.14-linuxkit
+zk2-1  | 2026-11-05T08:27:37.103157417Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:user.name=zookeeper
+zk2-1  | 2026-11-05T08:27:37.103158125Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:user.home=/home/zookeeper
+zk3-1  | 2026-11-05T08:27:37.154032500Z 2026-11-05 08:27:37,153 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+zk3-1  | 2026-11-05T08:27:37.157818667Z 2026-11-05 08:27:37,157 [myid:3] - INFO  [main:o.a.z.s.DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+zk3-1  | 2026-11-05T08:27:37.157874792Z 2026-11-05 08:27:37,157 [myid:3] - INFO  [main:o.a.z.s.DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+zk2-1  | 2026-11-05T08:27:37.103158792Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:user.dir=/apache-zookeeper-3.9.6-bin
+zk2-1  | 2026-11-05T08:27:37.103159458Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.free=45MB
+zk2-1  | 2026-11-05T08:27:37.103160083Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.max=256MB
+zk2-1  | 2026-11-05T08:27:37.103160750Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.total=66MB
+zk2-1  | 2026-11-05T08:27:37.103163250Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@151] - zookeeper.enableEagerACLCheck = false
+zk2-1  | 2026-11-05T08:27:37.103163958Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@164] - zookeeper.digest.enabled = true
+zk2-1  | 2026-11-05T08:27:37.103164583Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@168] - zookeeper.closeSessionTxn.enabled = true
+zk2-1  | 2026-11-05T08:27:37.103165292Z 2026-11-05 08:27:37,102 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@2247] - zookeeper.serializeLastProcessedZxid.enabled = true
+zk2-1  | 2026-11-05T08:27:37.103169667Z 2026-11-05 08:27:37,103 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@1585] - zookeeper.flushDelay = 0 ms
+zk2-1  | 2026-11-05T08:27:37.103309042Z 2026-11-05 08:27:37,103 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@1594] - zookeeper.maxWriteQueuePollTime = 0 ms
+zk2-1  | 2026-11-05T08:27:37.103392375Z 2026-11-05 08:27:37,103 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@1603] - zookeeper.maxBatchSize=1000
+zk2-1  | 2026-11-05T08:27:37.103526333Z 2026-11-05 08:27:37,103 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@289] - zookeeper.intBufferStartingSizeBytes = 1024
+zk2-1  | 2026-11-05T08:27:37.106257000Z 2026-11-05 08:27:37,106 [myid:2] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+zk2-1  | 2026-11-05T08:27:37.106327708Z 2026-11-05 08:27:37,106 [myid:2] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+zk2-1  | 2026-11-05T08:27:37.106479458Z 2026-11-05 08:27:37,106 [myid:2] - INFO  [main:o.a.z.s.ZKDatabase@137] - zookeeper.snapshotSizeFactor = 0.33
+zk2-1  | 2026-11-05T08:27:37.106481875Z 2026-11-05 08:27:37,106 [myid:2] - INFO  [main:o.a.z.s.ZKDatabase@157] - zookeeper.commitLogCount=500
+zk2-1  | 2026-11-05T08:27:37.110047458Z 2026-11-05 08:27:37,109 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2110] - Using insecure (non-TLS) quorum communication
+zk2-1  | 2026-11-05T08:27:37.110063750Z 2026-11-05 08:27:37,109 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2116] - Port unification disabled
+zk2-1  | 2026-11-05T08:27:37.110218458Z 2026-11-05 08:27:37,110 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@184] - multiAddress.enabled set to false
+zk2-1  | 2026-11-05T08:27:37.110310875Z 2026-11-05 08:27:37,110 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@209] - multiAddress.reachabilityCheckEnabled set to true
+zk2-1  | 2026-11-05T08:27:37.110407208Z 2026-11-05 08:27:37,110 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@196] - multiAddress.reachabilityCheckTimeoutMs set to 1000
+zk2-1  | 2026-11-05T08:27:37.110412125Z 2026-11-05 08:27:37,110 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2578] - QuorumPeer communication is not secured! (SASL auth disabled)
+zk2-1  | 2026-11-05T08:27:37.110415625Z 2026-11-05 08:27:37,110 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2603] - quorum.cnxn.threads.size set to 20
+zk2-1  | 2026-11-05T08:27:37.113287917Z 2026-11-05 08:27:37,113 [myid:2] - INFO  [main:o.a.z.s.p.SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+zk2-1  | 2026-11-05T08:27:37.113296292Z 2026-11-05 08:27:37,113 [myid:2] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x0 to /data/version-2/snapshot.0
+zk2-1  | 2026-11-05T08:27:37.114965958Z 2026-11-05 08:27:37,114 [myid:2] - INFO  [main:o.a.z.s.ZKDatabase@294] - Snapshot loaded in 4 ms, highest zxid is 0x0, digest is 1371985504
+zk2-1  | 2026-11-05T08:27:37.115087292Z 2026-11-05 08:27:37,114 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1161] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+zk2-1  | 2026-11-05T08:27:37.117156875Z 2026-11-05 08:27:37,116 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1189] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+zk2-1  | 2026-11-05T08:27:37.119459000Z 2026-11-05 08:27:37,119 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2620] - Using 10000ms as the quorum cnxn socket timeout
+zk2-1  | 2026-11-05T08:27:37.121984750Z 2026-11-05 08:27:37,121 [myid:2] - INFO  [main:o.a.z.s.q.QuorumCnxManager$Listener@921] - Election port bind maximum retries is 3
+zk2-1  | 2026-11-05T08:27:37.122973250Z 2026-11-05 08:27:37,122 [myid:2] - INFO  [main:o.a.z.s.q.FastLeaderElection@90] - zookeeper.fastleader.minNotificationInterval = 200 ms
+zk2-1  | 2026-11-05T08:27:37.122982250Z 2026-11-05 08:27:37,122 [myid:2] - INFO  [main:o.a.z.s.q.FastLeaderElection@92] - zookeeper.fastleader.maxNotificationInterval = 60000 ms
+zk2-1  | 2026-11-05T08:27:37.129386542Z 2026-11-05 08:27:37,129 [myid:2] - INFO  [main:o.a.z.a.ZKAuditProvider@42] - ZooKeeper audit is disabled.
+zk2-1  | 2026-11-05T08:27:37.129612917Z 2026-11-05 08:27:37,129 [myid:] - INFO  [ListenerHandler-zk2/172.20.0.3:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1068] - 2 is accepting connections now, my election bind port: zk2/172.20.0.3:3888
+zk2-1  | 2026-11-05T08:27:37.132715750Z 2026-11-05 08:27:37,132 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1470] - LOOKING
+zk2-1  | 2026-11-05T08:27:37.133311667Z 2026-11-05 08:27:37,133 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@947] - New election. My id = 2, proposed zxid=0x0
+zk2-1  | 2026-11-05T08:27:37.136789417Z 2026-11-05 08:27:37,136 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-11-05T08:27:37.138150583Z 2026-11-05 08:27:37,136 [myid:] - WARN  [QuorumConnectionThread-[myid=2]-2:o.a.z.s.q.QuorumCnxManager@398] - Cannot open channel to 3 at election address zk3/172.20.0.4:3888
+zk2-1  | 2026-11-05T08:27:37.138158667Z java.net.ConnectException: Connection refused
+zk2-1  | 2026-11-05T08:27:37.138160333Z 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+zk2-1  | 2026-11-05T08:27:37.138161792Z 	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+zk2-1  | 2026-11-05T08:27:37.138162708Z 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+zk2-1  | 2026-11-05T08:27:37.138164042Z 	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+zk2-1  | 2026-11-05T08:27:37.138164958Z 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+zk2-1  | 2026-11-05T08:27:37.138165958Z 	at java.base/java.net.Socket.connect(Unknown Source)
+zk2-1  | 2026-11-05T08:27:37.138166875Z 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:381)
+zk2-1  | 2026-11-05T08:27:37.138168167Z 	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:455)
+zk2-1  | 2026-11-05T08:27:37.138169083Z 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk2-1  | 2026-11-05T08:27:37.138170208Z 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk2-1  | 2026-11-05T08:27:37.138171083Z 	at java.base/java.lang.Thread.run(Unknown Source)
+zk2-1  | 2026-11-05T08:27:37.140043167Z 2026-11-05 08:27:37,139 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:1, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-11-05T08:27:37.142875000Z 2026-11-05 08:27:37,142 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-11-05T08:27:37.213651667Z 2026-11-05 08:27:37,213 [myid:] - INFO  [ListenerHandler-zk2/172.20.0.3:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1073] - Received connection request from /172.20.0.4:42024
+zk2-1  | 2026-11-05T08:27:37.215360417Z 2026-11-05 08:27:37,215 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-11-05T08:27:37.216938083Z 2026-11-05 08:27:37,216 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-11-05T08:27:37.217330917Z 2026-11-05 08:27:37,217 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-11-05T08:27:37.422967083Z 2026-11-05 08:27:37,421 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@906] - Peer state changed: following
+zk2-1  | 2026-11-05T08:27:37.422976083Z 2026-11-05 08:27:37,422 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1553] - FOLLOWING
+zk2-1  | 2026-11-05T08:27:37.426228833Z 2026-11-05 08:27:37,425 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@134] - leaderConnectDelayDuringRetryMs: 100
+zk2-1  | 2026-11-05T08:27:37.426334667Z 2026-11-05 08:27:37,426 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@135] - TCP NoDelay set to: true
+zk2-1  | 2026-11-05T08:27:37.426647875Z 2026-11-05 08:27:37,426 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@136] - zookeeper.learner.asyncSending = false
+zk2-1  | 2026-11-05T08:27:37.426657292Z 2026-11-05 08:27:37,426 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@137] - zookeeper.learner.closeSocketAsync = false
+zk2-1  | 2026-11-05T08:27:37.427908375Z 2026-11-05 08:27:37,427 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.BlueThrottle@141] - Weighed connection throttling is disabled
+zk2-1  | 2026-11-05T08:27:37.428432958Z 2026-11-05 08:27:37,428 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+zk2-1  | 2026-11-05T08:27:37.428439667Z 2026-11-05 08:27:37,428 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+zk2-1  | 2026-11-05T08:27:37.429011875Z 2026-11-05 08:27:37,428 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1395] - minSessionTimeout set to 4000 ms
+zk2-1  | 2026-11-05T08:27:37.429022042Z 2026-11-05 08:27:37,428 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1404] - maxSessionTimeout set to 40000 ms
+zk2-1  | 2026-11-05T08:27:37.429611333Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getData response cache size is initialized with value 400.
+zk2-1  | 2026-11-05T08:27:37.429807625Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getChildren response cache size is initialized with value 400.
+zk2-1  | 2026-11-05T08:27:37.430663875Z 2026-11-05 08:27:37,430 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+zk2-1  | 2026-11-05T08:27:37.430668500Z 2026-11-05 08:27:37,430 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+zk2-1  | 2026-11-05T08:27:37.430724583Z 2026-11-05 08:27:37,430 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+zk2-1  | 2026-11-05T08:27:37.430807125Z 2026-11-05 08:27:37,430 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+zk2-1  | 2026-11-05T08:27:37.430813208Z 2026-11-05 08:27:37,430 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+zk2-1  | 2026-11-05T08:27:37.431043208Z 2026-11-05 08:27:37,430 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+zk2-1  | 2026-11-05T08:27:37.432407167Z 2026-11-05 08:27:37,432 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1622] - The max bytes for all large requests are set to 104857600
+zk2-1  | 2026-11-05T08:27:37.432412125Z 2026-11-05 08:27:37,432 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1636] - The large request threshold is set to -1
+zk2-1  | 2026-11-05T08:27:37.432551292Z 2026-11-05 08:27:37,432 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@387] - Created server with tickTime 2000 ms minSessionTimeout 4000 ms maxSessionTimeout 40000 ms clientPortListenBacklog -1 dataLogdir /datalog/version-2 snapdir /data/version-2
+zk2-1  | 2026-11-05T08:27:37.433127625Z 2026-11-05 08:27:37,432 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Follower@76] - FOLLOWING - LEADER ELECTION TOOK - 300 MS
+zk2-1  | 2026-11-05T08:27:37.434585000Z 2026-11-05 08:27:37,434 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - discovery
+zk2-1  | 2026-11-05T08:27:37.436294833Z 2026-11-05 08:27:37,436 [myid:] - INFO  [LeaderConnector-zk3/172.20.0.4:2888:o.a.z.s.q.Learner$LeaderConnector@384] - Successfully connected to leader, using address: zk3/172.20.0.4:2888
+zk2-1  | 2026-11-05T08:27:37.445498833Z 2026-11-05 08:27:37,445 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - synchronization
+zk2-1  | 2026-11-05T08:27:37.447022333Z 2026-11-05 08:27:37,446 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@587] - Getting a diff from the leader 0x0
+zk2-1  | 2026-11-05T08:27:37.447024500Z 2026-11-05 08:27:37,446 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization - diff
+zk2-1  | 2026-11-05T08:27:37.448357292Z 2026-11-05 08:27:37,448 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@748] - Learner received NEWLEADER message
+zk2-1  | 2026-11-05T08:27:37.448574667Z 2026-11-05 08:27:37,448 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1914] - Dynamic reconfig is disabled, we don't store the last seen config.
+zk2-1  | 2026-11-05T08:27:37.449797083Z 2026-11-05 08:27:37,449 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@814] - Set the current epoch to 1
+zk2-1  | 2026-11-05T08:27:37.449925042Z 2026-11-05 08:27:37,449 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization
+zk2-1  | 2026-11-05T08:27:37.450038292Z 2026-11-05 08:27:37,449 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@820] - Sent NEWLEADER ack to leader with zxid 100000000
+zk2-1  | 2026-11-05T08:27:37.462287167Z 2026-11-05 08:27:37,462 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@732] - Learner received UPTODATE message
+zk2-1  | 2026-11-05T08:27:37.464260333Z 2026-11-05 08:27:37,464 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@490] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+zk2-1  | 2026-11-05T08:27:37.464399208Z 2026-11-05 08:27:37,464 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@451] - Configuring CommitProcessor with 12 worker threads.
+zk2-1  | 2026-11-05T08:27:37.464821083Z 2026-11-05 08:27:37,464 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FollowerRequestProcessor@59] - Initialized FollowerRequestProcessor with zookeeper.follower.skipLearnerRequestToNextProcessor as false
+zk2-1  | 2026-11-05T08:27:37.466023625Z 2026-11-05 08:27:37,465 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.RequestThrottler@75] - zookeeper.request_throttler.shutdownTimeout = 10000 ms
+zk2-1  | 2026-11-05T08:27:37.471952000Z 2026-11-05 08:27:37,471 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@843] - 0 txns have been logged asynchronously
+zk2-1  | 2026-11-05T08:27:37.471956500Z 2026-11-05 08:27:37,471 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@848] - 0 txns have been committed
+zk2-1  | 2026-11-05T08:27:37.472070208Z 2026-11-05 08:27:37,471 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - broadcast
+zk2-1  | 2026-11-05T08:27:41.996958044Z 2026-11-05 08:27:41,996 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+zk2-1  | 2026-11-05T08:27:41.996985919Z 2026-11-05 08:27:41,996 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@224] - The list of enabled four letter word commands is : [[stat, ruok, mntr, srvr]]
+zk2-1  | 2026-11-05T08:27:41.996992127Z 2026-11-05 08:27:41,996 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45718
+zk2-1  | 2026-11-05T08:27:52.221509090Z 2026-11-05 08:27:52,221 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42856
+zk2-1  | 2026-11-05T08:28:02.452395220Z 2026-11-05 08:28:02,451 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45762
+zk2-1  | 2026-11-05T08:28:12.658748919Z 2026-11-05 08:28:12,658 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49114
+zk2-1  | 2026-11-05T08:28:22.874867382Z 2026-11-05 08:28:22,874 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43942
+zk2-1  | 2026-11-05T08:28:33.088349221Z 2026-11-05 08:28:33,088 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47566
+zk2-1  | 2026-11-05T08:28:43.304530961Z 2026-11-05 08:28:43,304 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36416
+zk2-1  | 2026-11-05T08:28:53.516023133Z 2026-11-05 08:28:53,515 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56554
+zk2-1  | 2026-11-05T08:29:03.728519179Z 2026-11-05 08:29:03,728 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59464
+zk2-1  | 2026-11-05T08:29:13.954426670Z 2026-11-05 08:29:13,953 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47204
+zk2-1  | 2026-11-05T08:29:24.192999591Z 2026-11-05 08:29:24,192 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36588
+zk2-1  | 2026-11-05T08:29:34.423948263Z 2026-11-05 08:29:34,423 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51220
+zk2-1  | 2026-11-05T08:29:44.659500087Z 2026-11-05 08:29:44,659 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53442
+zk2-1  | 2026-11-05T08:29:54.903996633Z 2026-11-05 08:29:54,903 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38174
+zk2-1  | 2026-11-05T08:30:05.141603805Z 2026-11-05 08:30:05,141 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59688
+zk2-1  | 2026-11-05T08:30:15.377850087Z 2026-11-05 08:30:15,377 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40454
+zk2-1  | 2026-11-05T08:30:25.613362634Z 2026-11-05 08:30:25,613 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47438
+zk2-1  | 2026-11-05T08:30:35.839326389Z 2026-11-05 08:30:35,838 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33922
+zk2-1  | 2026-11-05T08:30:46.067842921Z 2026-11-05 08:30:46,066 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38560
+zk2-1  | 2026-11-05T08:30:56.306263217Z 2026-11-05 08:30:56,305 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37382
+zk2-1  | 2026-11-05T08:31:06.539790708Z 2026-11-05 08:31:06,539 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41344
+zk2-1  | 2026-11-05T08:31:16.780036504Z 2026-11-05 08:31:16,779 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38688
+zk2-1  | 2026-11-05T08:31:27.016828051Z 2026-11-05 08:31:27,016 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36810
+zk2-1  | 2026-11-05T08:31:37.245263292Z 2026-11-05 08:31:37,245 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:34258
+zk2-1  | 2026-11-05T08:31:47.470648838Z 2026-11-05 08:31:47,470 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56676
+zk2-1  | 2026-11-05T08:31:57.698048093Z 2026-11-05 08:31:57,697 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35228
+zk2-1  | 2026-11-05T08:32:07.935695375Z 2026-11-05 08:32:07,935 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43608
+zk2-1  | 2026-11-05T08:32:18.161056422Z 2026-11-05 08:32:18,160 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33286
+zk2-1  | 2026-11-05T08:32:28.387773010Z 2026-11-05 08:32:28,387 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47194
+zk2-1  | 2026-11-05T08:32:38.617831626Z 2026-11-05 08:32:38,617 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33850
+zk2-1  | 2026-11-05T08:32:48.837375630Z 2026-11-05 08:32:48,836 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:60380
+zk2-1  | 2026-11-05T08:32:59.061327969Z 2026-11-05 08:32:59,060 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35604
+zk2-1  | 2026-11-05T08:33:09.287977543Z 2026-11-05 08:33:09,286 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38350
+zk2-1  | 2026-11-05T08:33:19.528424006Z 2026-11-05 08:33:19,527 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46980
+zk2-1  | 2026-11-05T08:33:29.759452344Z 2026-11-05 08:33:29,759 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46498
+zk2-1  | 2026-11-05T08:33:40.002271460Z 2026-11-05 08:33:40,001 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40964
+zk2-1  | 2026-11-05T08:33:50.243222256Z 2026-11-05 08:33:50,241 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54016
+zk2-1  | 2026-11-05T08:34:00.480559261Z 2026-11-05 08:34:00,480 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59554
+zk2-1  | 2026-11-05T08:34:10.708119710Z 2026-11-05 08:34:10,707 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42256
+zk2-1  | 2026-11-05T08:34:20.938068548Z 2026-11-05 08:34:20,937 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47314
+zk2-1  | 2026-11-05T08:34:31.171350261Z 2026-11-05 08:34:31,170 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57056
+zk2-1  | 2026-11-05T08:34:41.401159085Z 2026-11-05 08:34:41,400 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40342
+zk2-1  | 2026-11-05T08:34:51.633525757Z 2026-11-05 08:34:51,633 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42762
+zk2-1  | 2026-11-05T08:35:01.858892012Z 2026-11-05 08:35:01,858 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59338
+zk2-1  | 2026-11-05T08:35:12.077734419Z 2026-11-05 08:35:12,077 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48638
+zk2-1  | 2026-11-05T08:35:22.304315299Z 2026-11-05 08:35:22,301 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36786
+zk2-1  | 2026-11-05T08:35:32.533818470Z 2026-11-05 08:35:32,533 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57918
+zk2-1  | 2026-11-05T08:35:42.751588169Z 2026-11-05 08:35:42,751 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57124
+zk2-1  | 2026-11-05T08:35:52.981125841Z 2026-11-05 08:35:52,980 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35542
+zk2-1  | 2026-11-05T08:36:03.220700221Z 2026-11-05 08:36:03,219 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43982
+zk2-1  | 2026-11-05T08:36:13.466680419Z 2026-11-05 08:36:13,466 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57466
+zk2-1  | 2026-11-05T08:36:23.690883133Z 2026-11-05 08:36:23,690 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:55436
+zk2-1  | 2026-11-05T08:36:33.926321971Z 2026-11-05 08:36:33,925 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42654
+zk2-1  | 2026-11-05T08:36:44.158131128Z 2026-11-05 08:36:44,157 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39374
+zk2-1  | 2026-11-05T08:36:54.405579091Z 2026-11-05 08:36:54,405 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35194
+zk2-1  | 2026-11-05T08:37:04.647909805Z 2026-11-05 08:37:04,647 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57740
+zk2-1  | 2026-11-05T08:37:14.886604628Z 2026-11-05 08:37:14,886 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49018
+zk2-1  | 2026-11-05T08:37:25.123235258Z 2026-11-05 08:37:25,122 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58636
+zk2-1  | 2026-11-05T08:37:35.369880222Z 2026-11-05 08:37:35,369 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49808
+zk2-1  | 2026-11-05T08:37:45.601400337Z 2026-11-05 08:37:45,601 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56510
+zk2-1  | 2026-11-05T08:37:55.827412634Z 2026-11-05 08:37:55,827 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57626
+zk2-1  | 2026-11-05T08:38:06.076112889Z 2026-11-05 08:38:06,075 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37334
+zk2-1  | 2026-11-05T08:38:16.318559171Z 2026-11-05 08:38:16,318 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:52902
+zk2-1  | 2026-11-05T08:38:26.545454092Z 2026-11-05 08:38:26,545 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48650
+zk2-1  | 2026-11-05T08:38:36.780178000Z 2026-11-05 08:38:36,779 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38842
+zk2-1  | 2026-11-05T08:38:46.998424421Z 2026-11-05 08:38:46,997 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48812
+zk2-1  | 2026-11-05T08:38:57.219867301Z 2026-11-05 08:38:57,219 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56352
+zk2-1  | 2026-11-05T08:39:07.452283125Z 2026-11-05 08:39:07,451 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58826
+zk2-1  | 2026-11-05T08:39:17.685092713Z 2026-11-05 08:39:17,684 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38184
+zk2-1  | 2026-11-05T08:39:27.938127718Z 2026-11-05 08:39:27,936 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59962
+zk2-1  | 2026-11-05T08:39:38.172320042Z 2026-11-05 08:39:38,172 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36880
+zk2-1  | 2026-11-05T08:39:48.392694422Z 2026-11-05 08:39:48,392 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:60684
+zk2-1  | 2026-11-05T08:39:58.630689635Z 2026-11-05 08:39:58,630 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33876
+zk2-1  | 2026-11-05T08:40:08.840918876Z 2026-11-05 08:40:08,840 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40574
+zk2-1  | 2026-11-05T08:40:19.065666380Z 2026-11-05 08:40:19,065 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41148
+zk2-1  | 2026-11-05T08:40:29.296071802Z 2026-11-05 08:40:29,295 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43698
+zk2-1  | 2026-11-05T08:40:39.520165876Z 2026-11-05 08:40:39,519 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57740
+zk2-1  | 2026-11-05T08:40:49.742972256Z 2026-11-05 08:40:49,742 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45276
+zk2-1  | 2026-11-05T08:41:00.044785636Z 2026-11-05 08:41:00,043 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51840
+zk2-1  | 2026-11-05T08:41:08.178079792Z 2026-11-05 08:41:08,177 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51870
+zk2-1  | 2026-11-05T08:41:10.283589418Z 2026-11-05 08:41:10,283 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51150
+zk2-1  | 2026-11-05T08:41:20.503241714Z 2026-11-05 08:41:20,502 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42966
+zk2-1  | 2026-11-05T08:41:30.750618428Z 2026-11-05 08:41:30,750 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42834
+zk2-1  | 2026-11-05T08:41:40.976447085Z 2026-11-05 08:41:40,975 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53280
+zk2-1  | 2026-11-05T08:41:51.202729631Z 2026-11-05 08:41:51,202 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45740
+zk2-1  | 2026-11-05T08:42:01.438206970Z 2026-11-05 08:42:01,437 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40124
+zk2-1  | 2026-11-05T08:42:11.669649002Z 2026-11-05 08:42:11,669 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57394
+zk2-1  | 2026-11-05T08:42:21.895659673Z 2026-11-05 08:42:21,895 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43538
+zk2-1  | 2026-11-05T08:42:32.132932012Z 2026-11-05 08:42:32,132 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59312
+zk2-1  | 2026-11-05T08:42:42.360673377Z 2026-11-05 08:42:42,360 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35562
+zk2-1  | 2026-11-05T08:42:52.585905799Z 2026-11-05 08:42:52,585 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45872
+zk2-1  | 2026-11-05T08:43:02.807038262Z 2026-11-05 08:43:02,806 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38372
+zk2-1  | 2026-11-05T08:43:13.031297086Z 2026-11-05 08:43:13,031 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:44696
+zk2-1  | 2026-11-05T08:43:23.264368424Z 2026-11-05 08:43:23,263 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59282
+zk2-1  | 2026-11-05T08:43:33.483721262Z 2026-11-05 08:43:33,483 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59738
+zk2-1  | 2026-11-05T08:43:43.708621670Z 2026-11-05 08:43:43,708 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37554
+zk2-1  | 2026-11-05T08:43:53.931883174Z 2026-11-05 08:43:53,931 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:52262
+zk2-1  | 2026-11-05T08:44:04.158292138Z 2026-11-05 08:44:04,158 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38662
+zk2-1  | 2026-11-05T08:44:14.380686128Z 2026-11-05 08:44:14,379 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54006
+zk2-1  | 2026-11-05T08:44:24.614270466Z 2026-11-05 08:44:24,613 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53648
+zk2-1  | 2026-11-05T08:44:34.866754971Z 2026-11-05 08:44:34,866 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54968
+zk2-1  | 2026-11-05T08:44:45.088671295Z 2026-11-05 08:44:45,087 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57932
+zk2-1  | 2026-11-05T08:44:55.312539383Z 2026-11-05 08:44:55,312 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54718
+zk2-1  | 2026-11-05T08:45:05.548966347Z 2026-11-05 08:45:05,548 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45582
+zk2-1  | 2026-11-05T08:45:15.777973004Z 2026-11-05 08:45:15,777 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33758
+zk2-1  | 2026-11-05T08:45:26.003629550Z 2026-11-05 08:45:26,003 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48406
+zk2-1  | 2026-11-05T08:45:36.221411680Z 2026-11-05 08:45:36,221 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39046
+zk2-1  | 2026-11-05T08:45:46.455802504Z 2026-11-05 08:45:46,455 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47138
+zk2-1  | 2026-11-05T08:45:56.696405801Z 2026-11-05 08:45:56,696 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47348
+zk2-1  | 2026-11-05T08:46:06.921370208Z 2026-11-05 08:46:06,921 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56172
+zk2-1  | 2026-11-05T08:46:17.155072005Z 2026-11-05 08:46:17,154 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33414
+zk2-1  | 2026-11-05T08:46:27.383010593Z 2026-11-05 08:46:27,382 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33626
+zk2-1  | 2026-11-05T09:04:24.851695833Z 2026-11-05 09:04:24,851 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51948
+zk2-1  | 2026-11-05T09:04:35.096297255Z 2026-11-05 09:04:35,094 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57332
+zk2-1  | 2026-11-05T09:04:45.299657635Z 2026-11-05 09:04:45,299 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39670
+zk2-1  | 2026-11-05T09:04:55.494363084Z 2026-11-05 09:04:55,494 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41494
+zk2-1  | 2026-11-05T09:05:05.666969963Z 2026-11-05 09:05:05,665 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39420
+zk2-1  | 2026-11-05T09:05:13.385023509Z 2026-11-05 09:05:13,384 [myid:] - WARN  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Follower@167] - Got zxid 0x100000001 expected 0x1
+zk2-1  | 2026-11-05T09:05:13.386959717Z 2026-11-05 09:05:13,386 [myid:] - INFO  [SyncThread:2:o.a.z.s.p.FileTxnLog@291] - Creating new log file: log.100000001
+zk2-1  | 2026-11-05T09:05:13.387440342Z 2026-11-05 09:05:13,387 [myid:] - INFO  [CommitProcessor:2:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x10000007abf0000
+zk2-1  | 2026-11-05T09:05:15.868622135Z 2026-11-05 09:05:15,868 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36988
+zk2-1  | 2026-11-05T09:05:26.060219542Z 2026-11-05 09:05:26,059 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42068
+zk2-1  | 2026-11-05T09:05:36.249878130Z 2026-11-05 09:05:36,249 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45870
+zk2-1  | 2026-11-05T09:05:46.436310344Z 2026-11-05 09:05:46,435 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56254
+zk2-1  | 2026-11-05T09:05:56.642867001Z 2026-11-05 09:05:56,642 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57076
+zk2-1  | 2026-11-05T09:06:06.825774506Z 2026-11-05 09:06:06,825 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35200
+zk1-1  | 2026-11-05T08:27:37.023874000Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@1603] - zookeeper.maxBatchSize=1000
+zk1-1  | 2026-11-05T08:27:37.023876250Z 2026-11-05 08:27:37,022 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@289] - zookeeper.intBufferStartingSizeBytes = 1024
+zk1-1  | 2026-11-05T08:27:37.025870625Z 2026-11-05 08:27:37,025 [myid:1] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+zk1-1  | 2026-11-05T08:27:37.025976333Z 2026-11-05 08:27:37,025 [myid:1] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+zk1-1  | 2026-11-05T08:27:37.026472833Z 2026-11-05 08:27:37,026 [myid:1] - INFO  [main:o.a.z.s.ZKDatabase@137] - zookeeper.snapshotSizeFactor = 0.33
+zk1-1  | 2026-11-05T08:27:37.026474916Z 2026-11-05 08:27:37,026 [myid:1] - INFO  [main:o.a.z.s.ZKDatabase@157] - zookeeper.commitLogCount=500
+zk1-1  | 2026-11-05T08:27:37.030873833Z 2026-11-05 08:27:37,029 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2110] - Using insecure (non-TLS) quorum communication
+zk1-1  | 2026-11-05T08:27:37.030878583Z 2026-11-05 08:27:37,030 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2116] - Port unification disabled
+zk1-1  | 2026-11-05T08:27:37.030879708Z 2026-11-05 08:27:37,030 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@184] - multiAddress.enabled set to false
+zk1-1  | 2026-11-05T08:27:37.030880583Z 2026-11-05 08:27:37,030 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@209] - multiAddress.reachabilityCheckEnabled set to true
+zk1-1  | 2026-11-05T08:27:37.030881333Z 2026-11-05 08:27:37,030 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@196] - multiAddress.reachabilityCheckTimeoutMs set to 1000
+zk1-1  | 2026-11-05T08:27:37.030882125Z 2026-11-05 08:27:37,030 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2578] - QuorumPeer communication is not secured! (SASL auth disabled)
+zk1-1  | 2026-11-05T08:27:37.030883333Z 2026-11-05 08:27:37,030 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2603] - quorum.cnxn.threads.size set to 20
+zk1-1  | 2026-11-05T08:27:37.033868916Z 2026-11-05 08:27:37,033 [myid:1] - INFO  [main:o.a.z.s.p.SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+zk1-1  | 2026-11-05T08:27:37.033874083Z 2026-11-05 08:27:37,033 [myid:1] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x0 to /data/version-2/snapshot.0
+zk1-1  | 2026-11-05T08:27:37.035756083Z 2026-11-05 08:27:37,035 [myid:1] - INFO  [main:o.a.z.s.ZKDatabase@294] - Snapshot loaded in 5 ms, highest zxid is 0x0, digest is 1371985504
+zk1-1  | 2026-11-05T08:27:37.035767125Z 2026-11-05 08:27:37,035 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1161] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+zk1-1  | 2026-11-05T08:27:37.037669541Z 2026-11-05 08:27:37,037 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1189] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+zk1-1  | 2026-11-05T08:27:37.040873458Z 2026-11-05 08:27:37,040 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2620] - Using 10000ms as the quorum cnxn socket timeout
+zk1-1  | 2026-11-05T08:27:37.045978250Z 2026-11-05 08:27:37,045 [myid:1] - INFO  [main:o.a.z.s.q.QuorumCnxManager$Listener@921] - Election port bind maximum retries is 3
+zk1-1  | 2026-11-05T08:27:37.047145041Z 2026-11-05 08:27:37,046 [myid:1] - INFO  [main:o.a.z.s.q.FastLeaderElection@90] - zookeeper.fastleader.minNotificationInterval = 200 ms
+zk1-1  | 2026-11-05T08:27:37.047558416Z 2026-11-05 08:27:37,047 [myid:1] - INFO  [main:o.a.z.s.q.FastLeaderElection@92] - zookeeper.fastleader.maxNotificationInterval = 60000 ms
+zk1-1  | 2026-11-05T08:27:37.062029000Z 2026-11-05 08:27:37,059 [myid:1] - INFO  [main:o.a.z.a.ZKAuditProvider@42] - ZooKeeper audit is disabled.
+zk1-1  | 2026-11-05T08:27:37.062047791Z 2026-11-05 08:27:37,060 [myid:] - INFO  [ListenerHandler-zk1/172.20.0.2:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1068] - 1 is accepting connections now, my election bind port: zk1/172.20.0.2:3888
+zk1-1  | 2026-11-05T08:27:37.064075541Z 2026-11-05 08:27:37,063 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1470] - LOOKING
+zk1-1  | 2026-11-05T08:27:37.064799458Z 2026-11-05 08:27:37,064 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@947] - New election. My id = 1, proposed zxid=0x0
+zk1-1  | 2026-11-05T08:27:37.069610291Z 2026-11-05 08:27:37,068 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:1, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-11-05T08:27:37.070823875Z 2026-11-05 08:27:37,069 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-2:o.a.z.s.q.QuorumCnxManager@398] - Cannot open channel to 3 at election address zk3/172.20.0.4:3888
+zk1-1  | 2026-11-05T08:27:37.070852958Z java.net.ConnectException: Connection refused
+zk1-1  | 2026-11-05T08:27:37.070854791Z 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+zk1-1  | 2026-11-05T08:27:37.070855666Z 	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070856458Z 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070857458Z 	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070858208Z 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070858958Z 	at java.base/java.net.Socket.connect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070859750Z 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:381)
+zk1-1  | 2026-11-05T08:27:37.070860708Z 	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:455)
+zk1-1  | 2026-11-05T08:27:37.070863416Z 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070864291Z 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070865125Z 	at java.base/java.lang.Thread.run(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070866125Z 2026-11-05 08:27:37,069 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.QuorumCnxManager@398] - Cannot open channel to 2 at election address zk2/172.20.0.3:3888
+zk1-1  | 2026-11-05T08:27:37.070866916Z java.net.ConnectException: Connection refused
+zk1-1  | 2026-11-05T08:27:37.070867666Z 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+zk1-1  | 2026-11-05T08:27:37.070868416Z 	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070869416Z 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070870166Z 	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070870916Z 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070871666Z 	at java.base/java.net.Socket.connect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070872500Z 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:381)
+zk1-1  | 2026-11-05T08:27:37.070873333Z 	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:455)
+zk1-1  | 2026-11-05T08:27:37.070874125Z 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070875083Z 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.070875875Z 	at java.base/java.lang.Thread.run(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.137224125Z 2026-11-05 08:27:37,136 [myid:] - INFO  [ListenerHandler-zk1/172.20.0.2:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1073] - Received connection request from /172.20.0.3:41822
+zk1-1  | 2026-11-05T08:27:37.141049542Z 2026-11-05 08:27:37,140 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-11-05T08:27:37.142537542Z 2026-11-05 08:27:37,142 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-11-05T08:27:37.146372417Z 2026-11-05 08:27:37,146 [myid:] - WARN  [QuorumConnectionThread-[myid=1]-3:o.a.z.s.q.QuorumCnxManager@398] - Cannot open channel to 3 at election address zk3/172.20.0.4:3888
+zk1-1  | 2026-11-05T08:27:37.146383833Z java.net.ConnectException: Connection refused
+zk1-1  | 2026-11-05T08:27:37.146387583Z 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+zk1-1  | 2026-11-05T08:27:37.146388833Z 	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.146389542Z 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.146390583Z 	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.146391292Z 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.146391958Z 	at java.base/java.net.Socket.connect(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.146392667Z 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:381)
+zk1-1  | 2026-11-05T08:27:37.146393625Z 	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:455)
+zk1-1  | 2026-11-05T08:27:37.146394333Z 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.146395042Z 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.146395708Z 	at java.base/java.lang.Thread.run(Unknown Source)
+zk1-1  | 2026-11-05T08:27:37.213527792Z 2026-11-05 08:27:37,213 [myid:] - INFO  [ListenerHandler-zk1/172.20.0.2:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1073] - Received connection request from /172.20.0.4:50488
+zk1-1  | 2026-11-05T08:27:37.215604375Z 2026-11-05 08:27:37,215 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-11-05T08:27:37.216380458Z 2026-11-05 08:27:37,216 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-11-05T08:27:37.217206625Z 2026-11-05 08:27:37,217 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-11-05T08:27:37.422667375Z 2026-11-05 08:27:37,419 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@906] - Peer state changed: following
+zk1-1  | 2026-11-05T08:27:37.422948292Z 2026-11-05 08:27:37,420 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1553] - FOLLOWING
+zk1-1  | 2026-11-05T08:27:37.425048250Z 2026-11-05 08:27:37,424 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@134] - leaderConnectDelayDuringRetryMs: 100
+zk1-1  | 2026-11-05T08:27:37.425110833Z 2026-11-05 08:27:37,424 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@135] - TCP NoDelay set to: true
+zk1-1  | 2026-11-05T08:27:37.425254875Z 2026-11-05 08:27:37,425 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@136] - zookeeper.learner.asyncSending = false
+zk1-1  | 2026-11-05T08:27:37.425302500Z 2026-11-05 08:27:37,425 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@137] - zookeeper.learner.closeSocketAsync = false
+zk1-1  | 2026-11-05T08:27:37.426669750Z 2026-11-05 08:27:37,426 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.BlueThrottle@141] - Weighed connection throttling is disabled
+zk1-1  | 2026-11-05T08:27:37.427045833Z 2026-11-05 08:27:37,426 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+zk1-1  | 2026-11-05T08:27:37.427088625Z 2026-11-05 08:27:37,426 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+zk1-1  | 2026-11-05T08:27:37.427740792Z 2026-11-05 08:27:37,427 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1395] - minSessionTimeout set to 4000 ms
+zk1-1  | 2026-11-05T08:27:37.427792250Z 2026-11-05 08:27:37,427 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1404] - maxSessionTimeout set to 40000 ms
+zk1-1  | 2026-11-05T08:27:37.428423583Z 2026-11-05 08:27:37,428 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getData response cache size is initialized with value 400.
+zk1-1  | 2026-11-05T08:27:37.428629708Z 2026-11-05 08:27:37,428 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getChildren response cache size is initialized with value 400.
+zk1-1  | 2026-11-05T08:27:37.429511458Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+zk1-1  | 2026-11-05T08:27:37.429527875Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+zk1-1  | 2026-11-05T08:27:37.429640333Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+zk1-1  | 2026-11-05T08:27:37.430116958Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+zk1-1  | 2026-11-05T08:27:37.430121500Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+zk1-1  | 2026-11-05T08:27:37.430122583Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+zk1-1  | 2026-11-05T08:27:37.431492750Z 2026-11-05 08:27:37,431 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1622] - The max bytes for all large requests are set to 104857600
+zk1-1  | 2026-11-05T08:27:37.431498667Z 2026-11-05 08:27:37,431 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1636] - The large request threshold is set to -1
+zk1-1  | 2026-11-05T08:27:37.431732667Z 2026-11-05 08:27:37,431 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@387] - Created server with tickTime 2000 ms minSessionTimeout 4000 ms maxSessionTimeout 40000 ms clientPortListenBacklog -1 dataLogdir /datalog/version-2 snapdir /data/version-2
+zk1-1  | 2026-11-05T08:27:37.432557167Z 2026-11-05 08:27:37,432 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Follower@76] - FOLLOWING - LEADER ELECTION TOOK - 368 MS
+zk1-1  | 2026-11-05T08:27:37.434057667Z 2026-11-05 08:27:37,433 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - discovery
+zk1-1  | 2026-11-05T08:27:37.435750292Z 2026-11-05 08:27:37,435 [myid:] - INFO  [LeaderConnector-zk3/172.20.0.4:2888:o.a.z.s.q.Learner$LeaderConnector@384] - Successfully connected to leader, using address: zk3/172.20.0.4:2888
+zk1-1  | 2026-11-05T08:27:37.445606833Z 2026-11-05 08:27:37,445 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - synchronization
+zk1-1  | 2026-11-05T08:27:37.447002792Z 2026-11-05 08:27:37,446 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@587] - Getting a diff from the leader 0x0
+zk1-1  | 2026-11-05T08:27:37.447018875Z 2026-11-05 08:27:37,446 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization - diff
+zk1-1  | 2026-11-05T08:27:37.448396333Z 2026-11-05 08:27:37,448 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@748] - Learner received NEWLEADER message
+zk1-1  | 2026-11-05T08:27:37.448747208Z 2026-11-05 08:27:37,448 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1914] - Dynamic reconfig is disabled, we don't store the last seen config.
+zk1-1  | 2026-11-05T08:27:37.449932208Z 2026-11-05 08:27:37,449 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@814] - Set the current epoch to 1
+zk1-1  | 2026-11-05T08:27:37.449974125Z 2026-11-05 08:27:37,449 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization
+zk1-1  | 2026-11-05T08:27:37.450136083Z 2026-11-05 08:27:37,450 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@820] - Sent NEWLEADER ack to leader with zxid 100000000
+zk1-1  | 2026-11-05T08:27:37.462281333Z 2026-11-05 08:27:37,462 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@732] - Learner received UPTODATE message
+zk1-1  | 2026-11-05T08:27:37.464381583Z 2026-11-05 08:27:37,464 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@490] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+zk1-1  | 2026-11-05T08:27:37.464388625Z 2026-11-05 08:27:37,464 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@451] - Configuring CommitProcessor with 12 worker threads.
+zk1-1  | 2026-11-05T08:27:37.464970417Z 2026-11-05 08:27:37,464 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FollowerRequestProcessor@59] - Initialized FollowerRequestProcessor with zookeeper.follower.skipLearnerRequestToNextProcessor as false
+zk1-1  | 2026-11-05T08:27:37.466085917Z 2026-11-05 08:27:37,465 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.RequestThrottler@75] - zookeeper.request_throttler.shutdownTimeout = 10000 ms
+zk1-1  | 2026-11-05T08:27:37.472271083Z 2026-11-05 08:27:37,471 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@843] - 0 txns have been logged asynchronously
+zk1-1  | 2026-11-05T08:27:37.472279542Z 2026-11-05 08:27:37,472 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@848] - 0 txns have been committed
+zk1-1  | 2026-11-05T08:27:37.472280708Z 2026-11-05 08:27:37,472 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - broadcast
+zk1-1  | 2026-11-05T08:27:41.915634877Z 2026-11-05 08:27:41,915 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+zk1-1  | 2026-11-05T08:27:41.915700585Z 2026-11-05 08:27:41,915 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@224] - The list of enabled four letter word commands is : [[stat, ruok, mntr, srvr]]
+zk1-1  | 2026-11-05T08:27:41.915725210Z 2026-11-05 08:27:41,915 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45702
+zk1-1  | 2026-11-05T08:27:52.137551049Z 2026-11-05 08:27:52,137 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42848
+zk1-1  | 2026-11-05T08:28:02.363977512Z 2026-11-05 08:28:02,363 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45752
+zk1-1  | 2026-11-05T08:28:12.580528086Z 2026-11-05 08:28:12,580 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49104
+zk1-1  | 2026-11-05T08:28:22.809050382Z 2026-11-05 08:28:22,808 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43940
+zk1-1  | 2026-11-05T08:28:33.048425387Z 2026-11-05 08:28:33,048 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47552
+zk1-1  | 2026-11-05T08:28:43.267637836Z 2026-11-05 08:28:43,267 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36414
+zk1-1  | 2026-11-05T08:28:53.500563758Z 2026-11-05 08:28:53,499 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56540
+zk1-1  | 2026-11-05T08:29:03.728719763Z 2026-11-05 08:29:03,728 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59472
+zk1-1  | 2026-11-05T08:29:13.960603003Z 2026-11-05 08:29:13,960 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47212
+zk1-1  | 2026-11-05T08:29:24.201595008Z 2026-11-05 08:29:24,201 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36602
+zk1-1  | 2026-11-05T08:29:34.425553221Z 2026-11-05 08:29:34,425 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51234
+zk1-1  | 2026-11-05T08:29:44.657909587Z 2026-11-05 08:29:44,657 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53432
+zk1-1  | 2026-11-05T08:29:54.896213508Z 2026-11-05 08:29:54,895 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38158
+zk1-1  | 2026-11-05T08:30:05.140218013Z 2026-11-05 08:30:05,139 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59682
+zk1-1  | 2026-11-05T08:30:15.379446129Z 2026-11-05 08:30:15,379 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40464
+zk1-1  | 2026-11-05T08:30:25.612940175Z 2026-11-05 08:30:25,612 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47436
+zk1-1  | 2026-11-05T08:30:35.840924430Z 2026-11-05 08:30:35,840 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33952
+zk1-1  | 2026-11-05T08:30:46.073813962Z 2026-11-05 08:30:46,073 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38562
+zk1-1  | 2026-11-05T08:30:56.308075217Z 2026-11-05 08:30:56,307 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37386
+zk1-1  | 2026-11-05T08:31:06.546865375Z 2026-11-05 08:31:06,546 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41364
+zk1-1  | 2026-11-05T08:31:16.781426004Z 2026-11-05 08:31:16,780 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38704
+zk1-1  | 2026-11-05T08:31:27.013481093Z 2026-11-05 08:31:27,013 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36794
+zk1-1  | 2026-11-05T08:31:37.242362583Z 2026-11-05 08:31:37,242 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:34252
+zk1-1  | 2026-11-05T08:31:47.467941296Z 2026-11-05 08:31:47,467 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56666
+zk1-1  | 2026-11-05T08:31:57.696922218Z 2026-11-05 08:31:57,696 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35214
+zk1-1  | 2026-11-05T08:32:07.935862792Z 2026-11-05 08:32:07,935 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43606
+zk1-1  | 2026-11-05T08:32:18.159967713Z 2026-11-05 08:32:18,159 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33282
+zk1-1  | 2026-11-05T08:32:28.386605927Z 2026-11-05 08:32:28,386 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47190
+zk1-1  | 2026-11-05T08:32:38.621605709Z 2026-11-05 08:32:38,621 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33866
+zk1-1  | 2026-11-05T08:32:48.846864380Z 2026-11-05 08:32:48,846 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:60392
+zk1-1  | 2026-11-05T08:32:59.068719927Z 2026-11-05 08:32:59,068 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35606
+zk1-1  | 2026-11-05T08:33:09.291473501Z 2026-11-05 08:33:09,291 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38352
+zk1-1  | 2026-11-05T08:33:19.525654006Z 2026-11-05 08:33:19,525 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46970
+zk1-1  | 2026-11-05T08:33:29.754516469Z 2026-11-05 08:33:29,754 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46482
+zk1-1  | 2026-11-05T08:33:39.989490210Z 2026-11-05 08:33:39,989 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40958
+zk1-1  | 2026-11-05T08:33:50.242734548Z 2026-11-05 08:33:50,242 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54022
+zk1-1  | 2026-11-05T08:34:00.478727344Z 2026-11-05 08:34:00,478 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59524
+zk1-1  | 2026-11-05T08:34:10.704912168Z 2026-11-05 08:34:10,704 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42242
+zk1-1  | 2026-11-05T08:34:20.934563756Z 2026-11-05 08:34:20,934 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47298
+zk1-1  | 2026-11-05T08:34:31.173157053Z 2026-11-05 08:34:31,172 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57060
+zk1-1  | 2026-11-05T08:34:41.403438919Z 2026-11-05 08:34:41,403 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40358
+zk1-1  | 2026-11-05T08:34:51.631499007Z 2026-11-05 08:34:51,631 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42752
+zk1-1  | 2026-11-05T08:35:01.855944303Z 2026-11-05 08:35:01,855 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59322
+zk1-1  | 2026-11-05T08:35:12.084560627Z 2026-11-05 08:35:12,084 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48654
+zk1-1  | 2026-11-05T08:35:22.305950382Z 2026-11-05 08:35:22,305 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36800
+zk1-1  | 2026-11-05T08:35:32.532006595Z 2026-11-05 08:35:32,531 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57904
+zk1-1  | 2026-11-05T08:35:42.750176794Z 2026-11-05 08:35:42,749 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57110
+zk1-1  | 2026-11-05T08:35:52.973877466Z 2026-11-05 08:35:52,973 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35540
+zk1-1  | 2026-11-05T08:36:03.217055804Z 2026-11-05 08:36:03,216 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43970
+zk1-1  | 2026-11-05T08:36:13.465832753Z 2026-11-05 08:36:13,465 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57456
+zk1-1  | 2026-11-05T08:36:23.692345299Z 2026-11-05 08:36:23,692 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:55446
+zk1-1  | 2026-11-05T08:36:33.923061638Z 2026-11-05 08:36:33,922 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42626
+zk1-1  | 2026-11-05T08:36:44.158531586Z 2026-11-05 08:36:44,157 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39384
+zk1-1  | 2026-11-05T08:36:54.414480216Z 2026-11-05 08:36:54,414 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35210
+zk1-1  | 2026-11-05T08:37:04.647887096Z 2026-11-05 08:37:04,647 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57756
+zk1-1  | 2026-11-05T08:37:14.892046920Z 2026-11-05 08:37:14,891 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49028
+zk1-1  | 2026-11-05T08:37:25.125740842Z 2026-11-05 08:37:25,125 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58652
+zk1-1  | 2026-11-05T08:37:35.359614722Z 2026-11-05 08:37:35,358 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49782
+zk1-1  | 2026-11-05T08:37:45.600339295Z 2026-11-05 08:37:45,600 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56500
+zk1-1  | 2026-11-05T08:37:55.822874009Z 2026-11-05 08:37:55,822 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57612
+zk1-1  | 2026-11-05T08:38:06.078201430Z 2026-11-05 08:38:06,077 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37342
+zk1-1  | 2026-11-05T08:38:16.311875296Z 2026-11-05 08:38:16,311 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:52886
+zk1-1  | 2026-11-05T08:38:26.545088176Z 2026-11-05 08:38:26,544 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48654
+zk1-1  | 2026-11-05T08:38:36.776116333Z 2026-11-05 08:38:36,774 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38834
+zk3-1  | 2026-11-05T08:27:37.157930333Z 2026-11-05 08:27:37,157 [myid:3] - INFO  [main:o.a.z.s.DatadirCleanupManager@101] - Purge task is not scheduled.
+zk3-1  | 2026-11-05T08:27:37.158334333Z 2026-11-05 08:27:37,158 [myid:3] - INFO  [main:o.a.z.j.ManagedUtil@46] - Log4j 1.2 jmx support not found; jmx disabled.
+zk2-1  | 2026-11-05T09:06:17.011448802Z 2026-11-05 09:06:17,011 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46216
+zk2-1  | 2026-11-05T09:06:27.187558793Z 2026-11-05 09:06:27,187 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59946
+zk2-1  | 2026-11-05T09:06:37.374425714Z 2026-11-05 09:06:37,374 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37404
+zk2-1  | 2026-11-05T09:06:47.565328427Z 2026-11-05 09:06:47,565 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48080
+zk2-1  | 2026-11-05T09:06:57.733987668Z 2026-11-05 09:06:57,733 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42260
+zk2-1  | 2026-11-05T09:07:07.918372256Z 2026-11-05 09:07:07,918 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39436
+zk3-1  | 2026-11-05T08:27:37.158387375Z 2026-11-05 08:27:37,158 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeerMain@152] - Starting quorum peer, myid=3
+zk3-1  | 2026-11-05T08:27:37.162943500Z 2026-11-05 08:27:37,162 [myid:3] - INFO  [main:o.a.z.s.ServerMetrics@64] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@f2ff811
+zk3-1  | 2026-11-05T08:27:37.164028542Z 2026-11-05 08:27:37,163 [myid:3] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@51] - ACL digest algorithm is: SHA1
+zk3-1  | 2026-11-05T08:27:37.164032542Z 2026-11-05 08:27:37,163 [myid:3] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@65] - zookeeper.DigestAuthenticationProvider.enabled = true
+zk3-1  | 2026-11-05T08:27:37.166310500Z 2026-11-05 08:27:37,166 [myid:3] - INFO  [main:o.a.z.s.ServerCnxnFactory@172] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+zk3-1  | 2026-11-05T08:27:37.166697208Z 2026-11-05 08:27:37,166 [myid:3] - WARN  [main:o.a.z.s.ServerCnxnFactory@337] - maxCnxns is not configured, using default value 0.
+zk3-1  | 2026-11-05T08:27:37.167303167Z 2026-11-05 08:27:37,167 [myid:3] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@652] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+zk3-1  | 2026-11-05T08:27:37.169638208Z 2026-11-05 08:27:37,169 [myid:3] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@660] - binding to port /0.0.0.0:2181
+zk3-1  | 2026-11-05T08:27:37.173628417Z 2026-11-05 08:27:37,173 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@801] - zookeeper.quorumCnxnTimeoutMs=-1
+zk3-1  | 2026-11-05T08:27:37.175443167Z 2026-11-05 08:27:37,175 [myid:3] - INFO  [main:o.a.z.c.X509Util@84] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+zk3-1  | 2026-11-05T08:27:37.176402292Z 2026-11-05 08:27:37,176 [myid:3] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+zk2-1  | 2026-11-05T09:07:18.104906803Z 2026-11-05 09:07:18,104 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59004
+zk2-1  | 2026-11-05T09:07:28.297170418Z 2026-11-05 09:07:28,296 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53602
+zk2-1  | 2026-11-05T09:07:38.497949173Z 2026-11-05 09:07:38,497 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42764
+zk2-1  | 2026-11-05T09:07:48.686292511Z 2026-11-05 09:07:48,686 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36594
+zk2-1  | 2026-11-05T09:07:58.887027335Z 2026-11-05 09:07:58,886 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38254
+zk3-1  | 2026-11-05T08:27:37.178180917Z 2026-11-05 08:27:37,178 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1786] - Local sessions disabled
+zk3-1  | 2026-11-05T08:27:37.178249833Z 2026-11-05 08:27:37,178 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1797] - Local session upgrading disabled
+zk3-1  | 2026-11-05T08:27:37.178343667Z 2026-11-05 08:27:37,178 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1764] - tickTime set to 2000
+zk3-1  | 2026-11-05T08:27:37.178346667Z 2026-11-05 08:27:37,178 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1808] - minSessionTimeout set to 4000
+zk3-1  | 2026-11-05T08:27:37.178471583Z 2026-11-05 08:27:37,178 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1819] - maxSessionTimeout set to 40000
+zk3-1  | 2026-11-05T08:27:37.178521792Z 2026-11-05 08:27:37,178 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1844] - initLimit set to 10
+zk3-1  | 2026-11-05T08:27:37.178588375Z 2026-11-05 08:27:37,178 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2031] - syncLimit set to 5
+zk3-1  | 2026-11-05T08:27:37.178625667Z 2026-11-05 08:27:37,178 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2046] - connectToLearnerMasterLimit set to 0
+zk3-1  | 2026-11-05T08:27:37.182840417Z 2026-11-05 08:27:37,182 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+zk3-1  | 2026-11-05T08:27:37.182847292Z 2026-11-05 08:27:37,182 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -   ______                  _                                          
+zk3-1  | 2026-11-05T08:27:37.182923000Z 2026-11-05 08:27:37,182 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -  |___  /                 | |                                         
+zk3-1  | 2026-11-05T08:27:37.182963208Z 2026-11-05 08:27:37,182 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+zk3-1  | 2026-11-05T08:27:37.182964958Z 2026-11-05 08:27:37,182 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+zk3-1  | 2026-11-05T08:27:37.183004833Z 2026-11-05 08:27:37,182 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+zk3-1  | 2026-11-05T08:27:37.183051208Z 2026-11-05 08:27:37,182 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+zk3-1  | 2026-11-05T08:27:37.183126250Z 2026-11-05 08:27:37,183 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               | |                     
+zk2-1  | 2026-11-05T09:08:09.077112465Z 2026-11-05 09:08:09,076 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:34480
+zk2-1  | 2026-11-05T09:08:19.260923637Z 2026-11-05 09:08:19,260 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37968
+zk2-1  | 2026-11-05T09:08:29.459354627Z 2026-11-05 09:08:29,459 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37734
+zk2-1  | 2026-11-05T09:08:39.662769507Z 2026-11-05 09:08:39,662 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58382
+zk1-1  | 2026-11-05T08:38:46.998016129Z 2026-11-05 08:38:46,997 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48800
+zk1-1  | 2026-11-05T08:38:57.211316593Z 2026-11-05 08:38:57,210 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56336
+zk1-1  | 2026-11-05T08:39:07.443592292Z 2026-11-05 08:39:07,443 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58810
+zk3-1  | 2026-11-05T08:27:37.183128083Z 2026-11-05 08:27:37,183 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               |_|                     
+zk3-1  | 2026-11-05T08:27:37.183189917Z 2026-11-05 08:27:37,183 [myid:3] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+zk3-1  | 2026-11-05T08:27:37.183729625Z 2026-11-05 08:27:37,183 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:zookeeper.version=3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+zk2-1  | 2026-11-05T09:08:49.852326095Z 2026-11-05 09:08:49,852 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57606
+zk2-1  | 2026-11-05T09:09:00.042330919Z 2026-11-05 09:09:00,042 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48414
+zk2-1  | 2026-11-05T09:09:10.236867716Z 2026-11-05 09:09:10,236 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:50502
+zk2-1  | 2026-11-05T09:09:20.416346304Z 2026-11-05 09:09:20,416 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43142
+zk2-1  | 2026-11-05T09:09:30.631291044Z 2026-11-05 09:09:30,630 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48310
+zk2-1  | 2026-11-05T09:09:40.813204466Z 2026-11-05 09:09:40,812 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49084
+zk2-1  | 2026-11-05T09:09:50.987714471Z 2026-11-05 09:09:50,987 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33566
+zk2-1  | 2026-11-05T09:10:01.167375336Z 2026-11-05 09:10:01,166 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46434
+zk2-1  | 2026-11-05T09:10:11.354166633Z 2026-11-05 09:10:11,353 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39070
+zk2-1  | 2026-11-05T09:10:21.527962096Z 2026-11-05 09:10:21,527 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47086
+zk2-1  | 2026-11-05T09:10:31.703165212Z 2026-11-05 09:10:31,702 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:60826
+zk1-1  | 2026-11-05T08:39:17.689184463Z 2026-11-05 08:39:17,688 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38188
+zk1-1  | 2026-11-05T08:39:27.935154468Z 2026-11-05 08:39:27,934 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59950
+zk1-1  | 2026-11-05T08:39:38.171099500Z 2026-11-05 08:39:38,170 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36878
+zk1-1  | 2026-11-05T08:39:48.393551797Z 2026-11-05 08:39:48,393 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:60686
+zk1-1  | 2026-11-05T08:39:58.612958135Z 2026-11-05 08:39:58,612 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33860
+zk1-1  | 2026-11-05T08:40:08.837835876Z 2026-11-05 08:40:08,837 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40562
+zk3-1  | 2026-11-05T08:27:37.183850042Z 2026-11-05 08:27:37,183 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:host.name=zk3
+zk3-1  | 2026-11-05T08:27:37.183901500Z 2026-11-05 08:27:37,183 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.version=17.0.21
+zk3-1  | 2026-11-05T08:27:37.184006500Z 2026-11-05 08:27:37,183 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.vendor=Eclipse Adoptium
+zk3-1  | 2026-11-05T08:27:37.184125167Z 2026-11-05 08:27:37,183 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.home=/opt/java/openjdk
+zk2-1  | 2026-11-05T09:10:41.883701966Z 2026-11-05 09:10:41,883 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49636
+zk2-1  | 2026-11-05T09:10:52.059756721Z 2026-11-05 09:10:52,059 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53450
+zk2-1  | 2026-11-05T09:11:02.239833128Z 2026-11-05 09:11:02,239 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57810
+zk2-1  | 2026-11-05T09:11:12.423256383Z 2026-11-05 09:11:12,423 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57676
+zk1-1  | 2026-11-05T08:40:19.064748547Z 2026-11-05 08:40:19,064 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41138
+zk1-1  | 2026-11-05T08:40:29.290492427Z 2026-11-05 08:40:29,290 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43686
+zk1-1  | 2026-11-05T08:40:39.521695709Z 2026-11-05 08:40:39,521 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57752
+zk1-1  | 2026-11-05T08:40:49.747989089Z 2026-11-05 08:40:49,747 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45280
+zk1-1  | 2026-11-05T08:41:00.044659386Z 2026-11-05 08:41:00,043 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51828
+zk1-1  | 2026-11-05T08:41:07.447660958Z 2026-11-05 08:41:07,447 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51866
+zk1-1  | 2026-11-05T08:41:10.277412210Z 2026-11-05 08:41:10,277 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51140
+zk1-1  | 2026-11-05T08:41:20.512693631Z 2026-11-05 08:41:20,512 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42974
+zk1-1  | 2026-11-05T08:41:30.746956844Z 2026-11-05 08:41:30,746 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42822
+zk1-1  | 2026-11-05T08:41:40.984763377Z 2026-11-05 08:41:40,984 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53302
+zk1-1  | 2026-11-05T08:41:51.209884340Z 2026-11-05 08:41:51,209 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45760
+zk1-1  | 2026-11-05T08:42:01.441948595Z 2026-11-05 08:42:01,441 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40138
+zk1-1  | 2026-11-05T08:42:11.665272002Z 2026-11-05 08:42:11,665 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57386
+zk1-1  | 2026-11-05T08:42:21.894580048Z 2026-11-05 08:42:21,894 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43536
+zk1-1  | 2026-11-05T08:42:32.128949720Z 2026-11-05 08:42:32,128 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59308
+zk2-1  | 2026-11-05T09:11:22.602891513Z 2026-11-05 09:11:22,602 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:50182
+zk2-1  | 2026-11-05T09:11:32.780323212Z 2026-11-05 09:11:32,779 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49522
+zk2-1  | 2026-11-05T09:11:42.959194675Z 2026-11-05 09:11:42,958 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41230
+zk2-1  | 2026-11-05T09:11:53.146456638Z 2026-11-05 09:11:53,146 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46148
+zk2-1  | 2026-11-05T09:12:03.315763087Z 2026-11-05 09:12:03,315 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53150
+zk2-1  | 2026-11-05T09:12:13.499247092Z 2026-11-05 09:12:13,499 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45332
+zk2-1  | 2026-11-05T09:12:23.683101597Z 2026-11-05 09:12:23,682 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37626
+zk2-1  | 2026-11-05T09:12:33.867010088Z 2026-11-05 09:12:33,866 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:34506
+zk2-1  | 2026-11-05T09:12:44.060010967Z 2026-11-05 09:12:44,059 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45034
+zk1-1  | 2026-11-05T08:42:42.353496502Z 2026-11-05 08:42:42,353 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35548
+zk1-1  | 2026-11-05T08:42:52.575133965Z 2026-11-05 08:42:52,574 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45862
+zk2-1  | 2026-11-05T09:12:48.317099511Z 2026-11-05 09:12:48,316 [myid:] - INFO  [CommitProcessor:2:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x10000007abf0001
+zk2-1  | 2026-11-05T09:12:54.254519416Z 2026-11-05 09:12:54,254 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51350
+zk2-1  | 2026-11-05T09:13:04.427235129Z 2026-11-05 09:13:04,427 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56240
+zk2-1  | 2026-11-05T09:13:14.603703301Z 2026-11-05 09:13:14,603 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36684
+zk2-1  | 2026-11-05T09:13:24.768839667Z 2026-11-05 09:13:24,768 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41022
+zk2-1  | 2026-11-05T09:13:34.949494505Z 2026-11-05 09:13:34,949 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40994
+zk2-1  | 2026-11-05T09:13:45.129648510Z 2026-11-05 09:13:45,129 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56312
+zk2-1  | 2026-11-05T09:13:55.309679542Z 2026-11-05 09:13:55,309 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54444
+zk2-1  | 2026-11-05T09:14:05.496138255Z 2026-11-05 09:14:05,495 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58230
+zk2-1  | 2026-11-05T09:14:15.668381718Z 2026-11-05 09:14:15,668 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37264
+zk1-1  | 2026-11-05T08:43:02.799620679Z 2026-11-05 08:43:02,799 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38364
+zk1-1  | 2026-11-05T08:43:13.026579544Z 2026-11-05 08:43:13,026 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:44674
+zk1-1  | 2026-11-05T08:43:23.263747507Z 2026-11-05 08:43:23,263 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59272
+zk1-1  | 2026-11-05T08:43:33.491583387Z 2026-11-05 08:43:33,491 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59744
+zk1-1  | 2026-11-05T08:43:43.716624378Z 2026-11-05 08:43:43,716 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37578
+zk1-1  | 2026-11-05T08:43:53.943833174Z 2026-11-05 08:43:53,943 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:52280
+zk1-1  | 2026-11-05T08:44:04.156343638Z 2026-11-05 08:44:04,155 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38654
+zk1-1  | 2026-11-05T08:44:14.381020837Z 2026-11-05 08:44:14,380 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54014
+zk1-1  | 2026-11-05T08:44:24.611095591Z 2026-11-05 08:44:24,610 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53636
+zk1-1  | 2026-11-05T08:44:34.859773638Z 2026-11-05 08:44:34,859 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54966
+zk1-1  | 2026-11-05T08:44:45.095880795Z 2026-11-05 08:44:45,095 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57950
+zk1-1  | 2026-11-05T08:44:55.325197175Z 2026-11-05 08:44:55,324 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54740
+zk1-1  | 2026-11-05T08:45:05.558760888Z 2026-11-05 08:45:05,558 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45596
+zk1-1  | 2026-11-05T08:45:15.776686546Z 2026-11-05 08:45:15,776 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33746
+zk1-1  | 2026-11-05T08:45:25.997343425Z 2026-11-05 08:45:25,996 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48376
+zk1-1  | 2026-11-05T08:45:36.227039472Z 2026-11-05 08:45:36,226 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39068
+zk1-1  | 2026-11-05T08:45:46.466754629Z 2026-11-05 08:45:46,466 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47158
+zk1-1  | 2026-11-05T08:45:56.692993467Z 2026-11-05 08:45:56,691 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47344
+zk3-1  | 2026-11-05T08:27:37.184267375Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.class.path=/apache-zookeeper-3.9.6-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/classes:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/target/classes:/apache-zookeeper-3.9.6-bin/bin/../build/classes:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/target/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../build/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-prometheus-metrics-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-jute-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/snappy-java-1.1.10.5.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/slf4j-api-2.0.13.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_servlet-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_hotspot-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_common-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-native-unix-common-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-native-epoll-4.1.137.Final-linux-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-classes-epoll-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-classes-2.0.81.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-windows-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-aarch_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-aarch_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-resolver-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-handler-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-common-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-codec-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-buffer-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/metrics-core-4.1.12.1.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/logback-core-1.3.15.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/logback-classic-1.3.15.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jline-3.30.14-jdk8.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-util-ajax-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-util-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-servlet-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-server-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-security-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-io-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-http-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/javax.servlet-api-3.1.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-databind-2.22.2.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-core-2.22.2.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-annotations-2.22.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/commons-io-2.17.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/commons-cli-1.5.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/audience-annotations-0.12.0.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-*.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/src/main/resources/lib/*.jar:/conf:
+zk3-1  | 2026-11-05T08:27:37.184289667Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+zk3-1  | 2026-11-05T08:27:37.184339208Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.io.tmpdir=/tmp
+zk3-1  | 2026-11-05T08:27:37.184390792Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:java.compiler=<NA>
+zk3-1  | 2026-11-05T08:27:37.184476583Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.name=Linux
+zk3-1  | 2026-11-05T08:27:37.184536000Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.arch=aarch64
+zk3-1  | 2026-11-05T08:27:37.184571167Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.version=7.0.14-linuxkit
+zk3-1  | 2026-11-05T08:27:37.184593958Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:user.name=zookeeper
+zk3-1  | 2026-11-05T08:27:37.184680292Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:user.home=/home/zookeeper
+zk3-1  | 2026-11-05T08:27:37.184681958Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:user.dir=/apache-zookeeper-3.9.6-bin
+zk3-1  | 2026-11-05T08:27:37.184733083Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.free=45MB
+zk3-1  | 2026-11-05T08:27:37.184773375Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.max=256MB
+zk3-1  | 2026-11-05T08:27:37.184823125Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.total=66MB
+zk3-1  | 2026-11-05T08:27:37.184912000Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@151] - zookeeper.enableEagerACLCheck = false
+zk3-1  | 2026-11-05T08:27:37.184958417Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@164] - zookeeper.digest.enabled = true
+zk3-1  | 2026-11-05T08:27:37.185055292Z 2026-11-05 08:27:37,184 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@168] - zookeeper.closeSessionTxn.enabled = true
+zk3-1  | 2026-11-05T08:27:37.185222667Z 2026-11-05 08:27:37,185 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@2247] - zookeeper.serializeLastProcessedZxid.enabled = true
+zk1-1  | 2026-11-05T08:46:06.920977208Z 2026-11-05 08:46:06,920 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56160
+zk1-1  | 2026-11-05T08:46:17.159624796Z 2026-11-05 08:46:17,159 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33418
+zk1-1  | 2026-11-05T08:46:27.387443384Z 2026-11-05 08:46:27,387 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33628
+zk1-1  | 2026-11-05T09:04:24.865500583Z 2026-11-05 09:04:24,865 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51960
+zk1-1  | 2026-11-05T09:04:35.103086297Z 2026-11-05 09:04:35,102 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57342
+zk1-1  | 2026-11-05T09:04:45.299624343Z 2026-11-05 09:04:45,299 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39684
+zk1-1  | 2026-11-05T09:04:55.491557875Z 2026-11-05 09:04:55,491 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41480
+zk1-1  | 2026-11-05T09:05:05.673323505Z 2026-11-05 09:05:05,673 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39430
+zk1-1  | 2026-11-05T09:05:13.382444550Z 2026-11-05 09:05:13,382 [myid:] - WARN  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Follower@167] - Got zxid 0x100000001 expected 0x1
+zk1-1  | 2026-11-05T09:05:13.382994925Z 2026-11-05 09:05:13,382 [myid:] - INFO  [SyncThread:1:o.a.z.s.p.FileTxnLog@291] - Creating new log file: log.100000001
+zk1-1  | 2026-11-05T09:05:13.387255009Z 2026-11-05 09:05:13,386 [myid:] - INFO  [CommitProcessor:1:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x10000007abf0000
+zk1-1  | 2026-11-05T09:05:15.869081135Z 2026-11-05 09:05:15,868 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36972
+zk1-1  | 2026-11-05T09:05:26.059897417Z 2026-11-05 09:05:26,059 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42078
+zk3-1  | 2026-11-05T08:27:37.185271333Z 2026-11-05 08:27:37,185 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@1585] - zookeeper.flushDelay = 0 ms
+zk3-1  | 2026-11-05T08:27:37.185361292Z 2026-11-05 08:27:37,185 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@1594] - zookeeper.maxWriteQueuePollTime = 0 ms
+zk3-1  | 2026-11-05T08:27:37.185405792Z 2026-11-05 08:27:37,185 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@1603] - zookeeper.maxBatchSize=1000
+zk3-1  | 2026-11-05T08:27:37.185586208Z 2026-11-05 08:27:37,185 [myid:3] - INFO  [main:o.a.z.s.ZooKeeperServer@289] - zookeeper.intBufferStartingSizeBytes = 1024
+zk3-1  | 2026-11-05T08:27:37.187982375Z 2026-11-05 08:27:37,187 [myid:3] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+zk3-1  | 2026-11-05T08:27:37.187985958Z 2026-11-05 08:27:37,187 [myid:3] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+zk3-1  | 2026-11-05T08:27:37.188240208Z 2026-11-05 08:27:37,188 [myid:3] - INFO  [main:o.a.z.s.ZKDatabase@137] - zookeeper.snapshotSizeFactor = 0.33
+zk3-1  | 2026-11-05T08:27:37.188294875Z 2026-11-05 08:27:37,188 [myid:3] - INFO  [main:o.a.z.s.ZKDatabase@157] - zookeeper.commitLogCount=500
+zk3-1  | 2026-11-05T08:27:37.191335375Z 2026-11-05 08:27:37,191 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2110] - Using insecure (non-TLS) quorum communication
+zk3-1  | 2026-11-05T08:27:37.191343958Z 2026-11-05 08:27:37,191 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2116] - Port unification disabled
+zk3-1  | 2026-11-05T08:27:37.191431667Z 2026-11-05 08:27:37,191 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@184] - multiAddress.enabled set to false
+zk3-1  | 2026-11-05T08:27:37.191449833Z 2026-11-05 08:27:37,191 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@209] - multiAddress.reachabilityCheckEnabled set to true
+zk3-1  | 2026-11-05T08:27:37.191509833Z 2026-11-05 08:27:37,191 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@196] - multiAddress.reachabilityCheckTimeoutMs set to 1000
+zk3-1  | 2026-11-05T08:27:37.191528083Z 2026-11-05 08:27:37,191 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2578] - QuorumPeer communication is not secured! (SASL auth disabled)
+zk3-1  | 2026-11-05T08:27:37.191571833Z 2026-11-05 08:27:37,191 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2603] - quorum.cnxn.threads.size set to 20
+zk3-1  | 2026-11-05T08:27:37.194029292Z 2026-11-05 08:27:37,193 [myid:3] - INFO  [main:o.a.z.s.p.SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+zk3-1  | 2026-11-05T08:27:37.194032792Z 2026-11-05 08:27:37,193 [myid:3] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x0 to /data/version-2/snapshot.0
+zk3-1  | 2026-11-05T08:27:37.195274833Z 2026-11-05 08:27:37,195 [myid:3] - INFO  [main:o.a.z.s.ZKDatabase@294] - Snapshot loaded in 4 ms, highest zxid is 0x0, digest is 1371985504
+zk3-1  | 2026-11-05T08:27:37.195397250Z 2026-11-05 08:27:37,195 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1161] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+zk3-1  | 2026-11-05T08:27:37.197696958Z 2026-11-05 08:27:37,197 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@1189] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+zk3-1  | 2026-11-05T08:27:37.199547292Z 2026-11-05 08:27:37,199 [myid:3] - INFO  [main:o.a.z.s.q.QuorumPeer@2620] - Using 10000ms as the quorum cnxn socket timeout
+zk3-1  | 2026-11-05T08:27:37.202140125Z 2026-11-05 08:27:37,201 [myid:3] - INFO  [main:o.a.z.s.q.QuorumCnxManager$Listener@921] - Election port bind maximum retries is 3
+zk3-1  | 2026-11-05T08:27:37.202974458Z 2026-11-05 08:27:37,202 [myid:3] - INFO  [main:o.a.z.s.q.FastLeaderElection@90] - zookeeper.fastleader.minNotificationInterval = 200 ms
+zk3-1  | 2026-11-05T08:27:37.203027958Z 2026-11-05 08:27:37,202 [myid:3] - INFO  [main:o.a.z.s.q.FastLeaderElection@92] - zookeeper.fastleader.maxNotificationInterval = 60000 ms
+zk3-1  | 2026-11-05T08:27:37.207589500Z 2026-11-05 08:27:37,207 [myid:3] - INFO  [main:o.a.z.a.ZKAuditProvider@42] - ZooKeeper audit is disabled.
+zk3-1  | 2026-11-05T08:27:37.208300083Z 2026-11-05 08:27:37,208 [myid:] - INFO  [ListenerHandler-zk3/172.20.0.4:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1068] - 3 is accepting connections now, my election bind port: zk3/172.20.0.4:3888
+zk3-1  | 2026-11-05T08:27:37.210266542Z 2026-11-05 08:27:37,210 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1470] - LOOKING
+zk3-1  | 2026-11-05T08:27:37.210581250Z 2026-11-05 08:27:37,210 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@947] - New election. My id = 3, proposed zxid=0x0
+zk3-1  | 2026-11-05T08:27:37.213409292Z 2026-11-05 08:27:37,213 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk3-1  | 2026-11-05T08:27:37.215350083Z 2026-11-05 08:27:37,215 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk3-1  | 2026-11-05T08:27:37.215749125Z 2026-11-05 08:27:37,215 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk3-1  | 2026-11-05T08:27:37.217020250Z 2026-11-05 08:27:37,216 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk3-1  | 2026-11-05T08:27:37.217324167Z 2026-11-05 08:27:37,217 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-11-05T09:05:36.252372214Z 2026-11-05 09:05:36,252 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45886
+zk1-1  | 2026-11-05T09:05:46.437456969Z 2026-11-05 09:05:46,437 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56256
+zk3-1  | 2026-11-05T08:27:37.422694792Z 2026-11-05 08:27:37,419 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@906] - Peer state changed: leading
+zk3-1  | 2026-11-05T08:27:37.423171333Z 2026-11-05 08:27:37,420 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1565] - LEADING
+zk1-1  | 2026-11-05T09:05:56.646066459Z 2026-11-05 09:05:56,645 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57096
+zk1-1  | 2026-11-05T09:06:06.827528006Z 2026-11-05 09:06:06,827 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35210
+zk1-1  | 2026-11-05T09:06:17.004639719Z 2026-11-05 09:06:17,004 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46192
+zk1-1  | 2026-11-05T09:06:27.189311334Z 2026-11-05 09:06:27,189 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59956
+zk1-1  | 2026-11-05T09:06:37.369983756Z 2026-11-05 09:06:37,368 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37388
+zk1-1  | 2026-11-05T09:06:47.562451219Z 2026-11-05 09:06:47,562 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48070
+zk1-1  | 2026-11-05T09:06:57.733987376Z 2026-11-05 09:06:57,733 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42268
+zk3-1  | 2026-11-05T08:27:37.424415625Z 2026-11-05 08:27:37,424 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.LearnerMaster@47] - zookeeper.leader.maxConcurrentSnapSyncs = 10
+zk3-1  | 2026-11-05T08:27:37.424439375Z 2026-11-05 08:27:37,424 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.LearnerMaster@50] - zookeeper.leader.maxConcurrentDiffSyncs = 100
+zk3-1  | 2026-11-05T08:27:37.424574708Z 2026-11-05 08:27:37,424 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Leader@86] - TCP NoDelay set to: true
+zk3-1  | 2026-11-05T08:27:37.424587833Z 2026-11-05 08:27:37,424 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Leader@153] - zookeeper.leader.ackLoggingFrequency = 1000
+zk3-1  | 2026-11-05T08:27:37.424756792Z 2026-11-05 08:27:37,424 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Leader@1416] - zookeeper.leader.maxTimeToWaitForEpoch = -1ms
+zk1-1  | 2026-11-05T09:07:07.915753215Z 2026-11-05 09:07:07,915 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39434
+zk1-1  | 2026-11-05T09:07:18.109824428Z 2026-11-05 09:07:18,109 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59020
+zk1-1  | 2026-11-05T09:07:28.299771543Z 2026-11-05 09:07:28,299 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53618
+zk1-1  | 2026-11-05T09:07:38.499830923Z 2026-11-05 09:07:38,499 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42774
+zk3-1  | 2026-11-05T08:27:37.426320375Z 2026-11-05 08:27:37,426 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.BlueThrottle@141] - Weighed connection throttling is disabled
+zk3-1  | 2026-11-05T08:27:37.426746875Z 2026-11-05 08:27:37,426 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+zk3-1  | 2026-11-05T08:27:37.427034542Z 2026-11-05 08:27:37,426 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+zk3-1  | 2026-11-05T08:27:37.427801042Z 2026-11-05 08:27:37,427 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1395] - minSessionTimeout set to 4000 ms
+zk3-1  | 2026-11-05T08:27:37.428024250Z 2026-11-05 08:27:37,427 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1404] - maxSessionTimeout set to 40000 ms
+zk3-1  | 2026-11-05T08:27:37.428566583Z 2026-11-05 08:27:37,428 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getData response cache size is initialized with value 400.
+zk3-1  | 2026-11-05T08:27:37.428570542Z 2026-11-05 08:27:37,428 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getChildren response cache size is initialized with value 400.
+zk3-1  | 2026-11-05T08:27:37.429334292Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+zk3-1  | 2026-11-05T08:27:37.429342833Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+zk1-1  | 2026-11-05T09:07:48.683473428Z 2026-11-05 09:07:48,683 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36568
+zk1-1  | 2026-11-05T09:07:58.884575502Z 2026-11-05 09:07:58,884 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38242
+zk3-1  | 2026-11-05T08:27:37.429505333Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+zk3-1  | 2026-11-05T08:27:37.429604000Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+zk3-1  | 2026-11-05T08:27:37.429726375Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+zk3-1  | 2026-11-05T08:27:37.429898417Z 2026-11-05 08:27:37,429 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+zk3-1  | 2026-11-05T08:27:37.431347958Z 2026-11-05 08:27:37,431 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1622] - The max bytes for all large requests are set to 104857600
+zk1-1  | 2026-11-05T09:08:09.076115423Z 2026-11-05 09:08:09,075 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:34464
+zk1-1  | 2026-11-05T09:08:19.259776387Z 2026-11-05 09:08:19,259 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37960
+zk1-1  | 2026-11-05T09:08:29.464395877Z 2026-11-05 09:08:29,464 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37742
+zk1-1  | 2026-11-05T09:08:39.663102049Z 2026-11-05 09:08:39,662 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58384
+zk1-1  | 2026-11-05T09:08:49.856760095Z 2026-11-05 09:08:49,856 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57622
+zk1-1  | 2026-11-05T09:09:00.042229086Z 2026-11-05 09:09:00,041 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48404
+zk1-1  | 2026-11-05T09:09:10.233928466Z 2026-11-05 09:09:10,233 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:50486
+zk1-1  | 2026-11-05T09:09:20.412009595Z 2026-11-05 09:09:20,411 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43130
+zk1-1  | 2026-11-05T09:09:30.632946961Z 2026-11-05 09:09:30,632 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48314
+zk1-1  | 2026-11-05T09:09:40.813980341Z 2026-11-05 09:09:40,813 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49098
+zk1-1  | 2026-11-05T09:09:50.987676596Z 2026-11-05 09:09:50,987 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33572
+zk1-1  | 2026-11-05T09:10:01.164957253Z 2026-11-05 09:10:01,164 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46446
+zk3-1  | 2026-11-05T08:27:37.431359500Z 2026-11-05 08:27:37,431 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1636] - The large request threshold is set to -1
+zk3-1  | 2026-11-05T08:27:37.431482708Z 2026-11-05 08:27:37,431 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@387] - Created server with tickTime 2000 ms minSessionTimeout 4000 ms maxSessionTimeout 40000 ms clientPortListenBacklog -1 dataLogdir /datalog/version-2 snapdir /data/version-2
+zk3-1  | 2026-11-05T08:27:37.433695833Z 2026-11-05 08:27:37,433 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Leader@637] - LEADING - LEADER ELECTION TOOK - 223 MS
+zk3-1  | 2026-11-05T08:27:37.435442125Z 2026-11-05 08:27:37,435 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: leading - discovery
+zk3-1  | 2026-11-05T08:27:37.436292750Z 2026-11-05 08:27:37,436 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x0 to /data/version-2/snapshot.0
+zk3-1  | 2026-11-05T08:27:37.436655417Z 2026-11-05 08:27:37,436 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@588] - Snapshot taken in 0 ms
+zk3-1  | 2026-11-05T08:27:37.439976542Z 2026-11-05 08:27:37,439 [myid:] - INFO  [LearnerCnxAcceptorHandler-zk3/172.20.0.4:2888:o.a.z.s.q.LearnerHandler@76] - zookeeper.leader.closeSocketAsync = false
+zk3-1  | 2026-11-05T08:27:37.441745292Z 2026-11-05 08:27:37,441 [myid:] - INFO  [LearnerHandler-/172.20.0.3:39886:o.a.z.s.q.LearnerHandler@511] - Follower sid: 2 : info : zk2:2888:3888:participant;0.0.0.0:2181
+zk3-1  | 2026-11-05T08:27:37.441749125Z 2026-11-05 08:27:37,441 [myid:] - INFO  [LearnerHandler-/172.20.0.2:34246:o.a.z.s.q.LearnerHandler@511] - Follower sid: 1 : info : zk1:2888:3888:participant;0.0.0.0:2181
+zk3-1  | 2026-11-05T08:27:37.444522750Z 2026-11-05 08:27:37,444 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1914] - Dynamic reconfig is disabled, we don't store the last seen config.
+zk3-1  | 2026-11-05T08:27:37.445258125Z 2026-11-05 08:27:37,445 [myid:] - INFO  [LearnerHandler-/172.20.0.2:34246:o.a.z.s.ZKDatabase@358] - On disk txn sync enabled with snapshotSizeFactor 0.33
+zk3-1  | 2026-11-05T08:27:37.445264542Z 2026-11-05 08:27:37,445 [myid:] - INFO  [LearnerHandler-/172.20.0.3:39886:o.a.z.s.ZKDatabase@358] - On disk txn sync enabled with snapshotSizeFactor 0.33
+zk3-1  | 2026-11-05T08:27:37.445265500Z 2026-11-05 08:27:37,445 [myid:] - INFO  [LearnerHandler-/172.20.0.2:34246:o.a.z.s.q.LearnerHandler@806] - Synchronizing with Learner sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x0 peerLastZxid=0x0
+zk3-1  | 2026-11-05T08:27:37.445488125Z 2026-11-05 08:27:37,445 [myid:] - INFO  [LearnerHandler-/172.20.0.3:39886:o.a.z.s.q.LearnerHandler@806] - Synchronizing with Learner sid: 2 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x0 peerLastZxid=0x0
+zk3-1  | 2026-11-05T08:27:37.445492542Z 2026-11-05 08:27:37,445 [myid:] - INFO  [LearnerHandler-/172.20.0.2:34246:o.a.z.s.q.LearnerHandler@851] - Sending DIFF zxid=0x0 for peer sid: 1
+zk3-1  | 2026-11-05T08:27:37.445609333Z 2026-11-05 08:27:37,445 [myid:] - INFO  [LearnerHandler-/172.20.0.3:39886:o.a.z.s.q.LearnerHandler@851] - Sending DIFF zxid=0x0 for peer sid: 2
+zk3-1  | 2026-11-05T08:27:37.446679125Z 2026-11-05 08:27:37,446 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: leading - synchronization
+zk3-1  | 2026-11-05T08:27:37.450249083Z 2026-11-05 08:27:37,450 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Leader@1566] - Have quorum of supporters, sids: [[2, 3]]; starting up and setting last processed zxid: 0x100000000
+zk3-1  | 2026-11-05T08:27:37.450253542Z 2026-11-05 08:27:37,450 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Leader@1588] - Dynamic reconfig feature is disabled, skip designatedLeader calculation and reconfig processing.
+zk3-1  | 2026-11-05T08:27:37.453162833Z 2026-11-05 08:27:37,452 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@490] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+zk3-1  | 2026-11-05T08:27:37.453221750Z 2026-11-05 08:27:37,453 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@451] - Configuring CommitProcessor with 12 worker threads.
+zk3-1  | 2026-11-05T08:27:37.453976250Z 2026-11-05 08:27:37,453 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.ProposalRequestProcessor@57] - zookeeper.forward_learner_requests_to_commit_processor_disabled = false
+zk3-1  | 2026-11-05T08:27:37.455564500Z 2026-11-05 08:27:37,455 [myid:] - INFO  [ProcessThread(sid:3 cport:-1)::o.a.z.s.PrepRequestProcessor@138] - PrepRequestProcessor (sid:3) started, reconfigEnabled=false
+zk3-1  | 2026-11-05T08:27:37.455956875Z 2026-11-05 08:27:37,455 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+zk3-1  | 2026-11-05T08:27:37.456221250Z 2026-11-05 08:27:37,456 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.RequestThrottler@75] - zookeeper.request_throttler.shutdownTimeout = 10000 ms
+zk3-1  | 2026-11-05T08:27:37.462066625Z 2026-11-05 08:27:37,461 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: leading - broadcast
+zk3-1  | 2026-11-05T08:27:42.079260044Z 2026-11-05 08:27:42,078 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+zk3-1  | 2026-11-05T08:27:42.079275836Z 2026-11-05 08:27:42,079 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@224] - The list of enabled four letter word commands is : [[stat, ruok, mntr, srvr]]
+zk3-1  | 2026-11-05T08:27:42.079368461Z 2026-11-05 08:27:42,079 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45730
+zk3-1  | 2026-11-05T08:27:52.293502340Z 2026-11-05 08:27:52,293 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42858
+zk3-1  | 2026-11-05T08:28:02.513716887Z 2026-11-05 08:28:02,513 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45778
+zk3-1  | 2026-11-05T08:28:12.722999669Z 2026-11-05 08:28:12,722 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49120
+zk3-1  | 2026-11-05T08:28:22.934384716Z 2026-11-05 08:28:22,934 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43952
+zk3-1  | 2026-11-05T08:28:33.143018721Z 2026-11-05 08:28:33,142 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47570
+zk3-1  | 2026-11-05T08:28:43.364482378Z 2026-11-05 08:28:43,364 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36426
+zk3-1  | 2026-11-05T08:28:53.575829008Z 2026-11-05 08:28:53,575 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56558
+zk3-1  | 2026-11-05T08:29:03.778666929Z 2026-11-05 08:29:03,778 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59488
+zk3-1  | 2026-11-05T08:29:13.999063878Z 2026-11-05 08:29:13,998 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47216
+zk3-1  | 2026-11-05T08:29:24.224931175Z 2026-11-05 08:29:24,224 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36608
+zk3-1  | 2026-11-05T08:29:34.445865555Z 2026-11-05 08:29:34,445 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51248
+zk3-1  | 2026-11-05T08:29:44.670109628Z 2026-11-05 08:29:44,669 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53452
+zk3-1  | 2026-11-05T08:29:54.894456092Z 2026-11-05 08:29:54,894 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38154
+zk3-1  | 2026-11-05T08:30:05.135619388Z 2026-11-05 08:30:05,134 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59680
+zk1-1  | 2026-11-05T09:10:11.356042966Z 2026-11-05 09:10:11,355 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39084
+zk1-1  | 2026-11-05T09:10:21.531881013Z 2026-11-05 09:10:21,531 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47106
+zk3-1  | 2026-11-05T08:30:15.385596254Z 2026-11-05 08:30:15,385 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40476
+zk3-1  | 2026-11-05T08:30:25.612995384Z 2026-11-05 08:30:25,612 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47426
+zk3-1  | 2026-11-05T08:30:35.840232722Z 2026-11-05 08:30:35,839 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33936
+zk3-1  | 2026-11-05T08:30:46.079709254Z 2026-11-05 08:30:46,079 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38574
+zk1-1  | 2026-11-05T09:10:31.703772753Z 2026-11-05 09:10:31,703 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:60838
+zk1-1  | 2026-11-05T09:10:41.880837216Z 2026-11-05 09:10:41,880 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49626
+zk1-1  | 2026-11-05T09:10:52.054528055Z 2026-11-05 09:10:52,054 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53442
+zk1-1  | 2026-11-05T09:11:02.236275962Z 2026-11-05 09:11:02,235 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57806
+zk1-1  | 2026-11-05T09:11:11.034998716Z 2026-11-05 09:11:11,034 [myid:] - INFO  [RequestThrottler:o.a.z.s.q.QuorumZooKeeperServer@156] - Submitting global closeSession request for session 0x10000007abf0000
+zk1-1  | 2026-11-05T09:11:12.427351300Z 2026-11-05 09:11:12,427 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57692
+zk1-1  | 2026-11-05T09:11:22.602196138Z 2026-11-05 09:11:22,601 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:50180
+zk1-1  | 2026-11-05T09:11:32.782402295Z 2026-11-05 09:11:32,782 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49534
+zk1-1  | 2026-11-05T09:11:42.958881342Z 2026-11-05 09:11:42,958 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41216
+zk1-1  | 2026-11-05T09:11:53.145565847Z 2026-11-05 09:11:53,145 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46142
+zk1-1  | 2026-11-05T09:12:03.318560754Z 2026-11-05 09:12:03,318 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53158
+zk1-1  | 2026-11-05T09:12:13.494292425Z 2026-11-05 09:12:13,493 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45316
+zk3-1  | 2026-11-05T08:30:56.314622509Z 2026-11-05 08:30:56,314 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37398
+zk3-1  | 2026-11-05T08:31:06.545660875Z 2026-11-05 08:31:06,545 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41360
+zk3-1  | 2026-11-05T08:31:16.778137338Z 2026-11-05 08:31:16,777 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38684
+zk3-1  | 2026-11-05T08:31:27.013924509Z 2026-11-05 08:31:27,013 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36786
+zk3-1  | 2026-11-05T08:31:37.240510667Z 2026-11-05 08:31:37,240 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:34250
+zk3-1  | 2026-11-05T08:31:47.472938546Z 2026-11-05 08:31:47,472 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56692
+zk3-1  | 2026-11-05T08:31:57.693960801Z 2026-11-05 08:31:57,693 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35198
+zk3-1  | 2026-11-05T08:32:07.931777792Z 2026-11-05 08:32:07,931 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43598
+zk3-1  | 2026-11-05T08:32:18.168511255Z 2026-11-05 08:32:18,168 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33288
+zk3-1  | 2026-11-05T08:32:28.394053677Z 2026-11-05 08:32:28,393 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47196
+zk3-1  | 2026-11-05T08:32:38.622363917Z 2026-11-05 08:32:38,622 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33868
+zk3-1  | 2026-11-05T08:32:48.847716089Z 2026-11-05 08:32:48,847 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:60406
+zk3-1  | 2026-11-05T08:32:59.072708177Z 2026-11-05 08:32:59,072 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35622
+zk3-1  | 2026-11-05T08:33:09.303077084Z 2026-11-05 08:33:09,302 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38360
+zk3-1  | 2026-11-05T08:33:19.521668381Z 2026-11-05 08:33:19,521 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46960
+zk3-1  | 2026-11-05T08:33:29.754134094Z 2026-11-05 08:33:29,753 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46472
+zk3-1  | 2026-11-05T08:33:39.989525918Z 2026-11-05 08:33:39,989 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40954
+zk3-1  | 2026-11-05T08:33:50.245162589Z 2026-11-05 08:33:50,244 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54026
+zk3-1  | 2026-11-05T08:34:00.478758428Z 2026-11-05 08:34:00,478 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59538
+zk3-1  | 2026-11-05T08:34:10.711072460Z 2026-11-05 08:34:10,710 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42266
+zk3-1  | 2026-11-05T08:34:20.936112840Z 2026-11-05 08:34:20,935 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47308
+zk3-1  | 2026-11-05T08:34:31.175513761Z 2026-11-05 08:34:31,174 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57064
+zk3-1  | 2026-11-05T08:34:41.401387669Z 2026-11-05 08:34:41,401 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40346
+zk3-1  | 2026-11-05T08:34:51.635306257Z 2026-11-05 08:34:51,635 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42774
+zk3-1  | 2026-11-05T08:35:01.857787928Z 2026-11-05 08:35:01,857 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59324
+zk3-1  | 2026-11-05T08:35:12.080082627Z 2026-11-05 08:35:12,079 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48652
+zk3-1  | 2026-11-05T08:35:22.307916299Z 2026-11-05 08:35:22,307 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36816
+zk3-1  | 2026-11-05T08:35:32.531455137Z 2026-11-05 08:35:32,531 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57892
+zk3-1  | 2026-11-05T08:35:42.760599294Z 2026-11-05 08:35:42,760 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57140
+zk3-1  | 2026-11-05T08:35:52.990557716Z 2026-11-05 08:35:52,990 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35544
+zk3-1  | 2026-11-05T08:36:03.217087887Z 2026-11-05 08:36:03,215 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43960
+zk3-1  | 2026-11-05T08:36:13.467862961Z 2026-11-05 08:36:13,467 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57470
+zk3-1  | 2026-11-05T08:36:23.690278966Z 2026-11-05 08:36:23,689 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:55420
+zk3-1  | 2026-11-05T08:36:33.923141388Z 2026-11-05 08:36:33,922 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42640
+zk3-1  | 2026-11-05T08:36:44.157358461Z 2026-11-05 08:36:44,156 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39372
+zk3-1  | 2026-11-05T08:36:54.399325050Z 2026-11-05 08:36:54,398 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35186
+zk3-1  | 2026-11-05T08:37:04.646036180Z 2026-11-05 08:37:04,645 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57736
+zk3-1  | 2026-11-05T08:37:14.885615503Z 2026-11-05 08:37:14,884 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49002
+zk3-1  | 2026-11-05T08:37:25.128388550Z 2026-11-05 08:37:25,128 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58668
+zk3-1  | 2026-11-05T08:37:35.361143638Z 2026-11-05 08:37:35,360 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49796
+zk3-1  | 2026-11-05T08:37:45.608223046Z 2026-11-05 08:37:45,607 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56512
+zk3-1  | 2026-11-05T08:37:55.826866050Z 2026-11-05 08:37:55,826 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57616
+zk3-1  | 2026-11-05T08:38:06.084210430Z 2026-11-05 08:38:06,083 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37348
+zk3-1  | 2026-11-05T08:38:16.313244546Z 2026-11-05 08:38:16,312 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:52890
+zk3-1  | 2026-11-05T08:38:26.546261717Z 2026-11-05 08:38:26,545 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48670
+zk3-1  | 2026-11-05T08:38:36.778425458Z 2026-11-05 08:38:36,778 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38838
+zk3-1  | 2026-11-05T08:38:46.993795171Z 2026-11-05 08:38:46,993 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48794
+zk3-1  | 2026-11-05T08:38:57.219899718Z 2026-11-05 08:38:57,219 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56364
+zk3-1  | 2026-11-05T08:39:07.446903417Z 2026-11-05 08:39:07,446 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58822
+zk3-1  | 2026-11-05T08:39:17.682610213Z 2026-11-05 08:39:17,681 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38168
+zk3-1  | 2026-11-05T08:39:27.932925551Z 2026-11-05 08:39:27,931 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59946
+zk1-1  | 2026-11-05T09:12:23.684336430Z 2026-11-05 09:12:23,684 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37628
+zk1-1  | 2026-11-05T09:12:33.868419504Z 2026-11-05 09:12:33,868 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:34496
+zk1-1  | 2026-11-05T09:12:44.081099009Z 2026-11-05 09:12:44,080 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45048
+zk1-1  | 2026-11-05T09:12:48.316948969Z 2026-11-05 09:12:48,316 [myid:] - INFO  [CommitProcessor:1:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x10000007abf0001
+zk1-1  | 2026-11-05T09:12:48.384253386Z 2026-11-05 09:12:48,384 [myid:] - INFO  [RequestThrottler:o.a.z.s.q.QuorumZooKeeperServer@156] - Submitting global closeSession request for session 0x10000007abf0001
+zk1-1  | 2026-11-05T09:12:54.253665875Z 2026-11-05 09:12:54,253 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51346
+zk1-1  | 2026-11-05T09:13:04.431799171Z 2026-11-05 09:13:04,431 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56254
+zk1-1  | 2026-11-05T09:13:14.605843676Z 2026-11-05 09:13:14,605 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36694
+zk1-1  | 2026-11-05T09:13:24.787915667Z 2026-11-05 09:13:24,787 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41042
+zk1-1  | 2026-11-05T09:13:34.957448921Z 2026-11-05 09:13:34,957 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41006
+zk1-1  | 2026-11-05T09:13:45.142979510Z 2026-11-05 09:13:45,142 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56324
+zk1-1  | 2026-11-05T09:13:55.308746083Z 2026-11-05 09:13:55,308 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54454
+zk1-1  | 2026-11-05T09:14:05.497492797Z 2026-11-05 09:14:05,497 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58242
+zk1-1  | 2026-11-05T09:14:15.673238677Z 2026-11-05 09:14:15,673 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37280
+zk3-1  | 2026-11-05T08:39:38.178933125Z 2026-11-05 08:39:38,178 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36896
+zk3-1  | 2026-11-05T08:39:48.401994505Z 2026-11-05 08:39:48,401 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:60698
+zk3-1  | 2026-11-05T08:39:58.623979927Z 2026-11-05 08:39:58,623 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33862
+zk3-1  | 2026-11-05T08:40:08.842954584Z 2026-11-05 08:40:08,842 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40582
+zk3-1  | 2026-11-05T08:40:19.069616630Z 2026-11-05 08:40:19,069 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41154
+zk3-1  | 2026-11-05T08:40:29.296669927Z 2026-11-05 08:40:29,296 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43702
+zk3-1  | 2026-11-05T08:40:39.516372001Z 2026-11-05 08:40:39,516 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57738
+zk3-1  | 2026-11-05T08:40:49.741196922Z 2026-11-05 08:40:49,740 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45260
+zk3-1  | 2026-11-05T08:41:00.045055136Z 2026-11-05 08:41:00,044 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51852
+zk3-1  | 2026-11-05T08:41:02.230079262Z 2026-11-05 08:41:02,229 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51856
+zk3-1  | 2026-11-05T08:41:10.286306376Z 2026-11-05 08:41:10,286 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51162
+zk3-1  | 2026-11-05T08:41:20.508262506Z 2026-11-05 08:41:20,507 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42968
+zk3-1  | 2026-11-05T08:41:30.749932428Z 2026-11-05 08:41:30,749 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42842
+zk3-1  | 2026-11-05T08:41:40.982384377Z 2026-11-05 08:41:40,982 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53286
+zk3-1  | 2026-11-05T08:41:51.206296756Z 2026-11-05 08:41:51,205 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45750
+zk3-1  | 2026-11-05T08:42:01.437694720Z 2026-11-05 08:42:01,437 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:40136
+zk3-1  | 2026-11-05T08:42:11.662748127Z 2026-11-05 08:42:11,662 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57370
+zk3-1  | 2026-11-05T08:42:21.896801173Z 2026-11-05 08:42:21,896 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43542
+zk3-1  | 2026-11-05T08:42:32.132961178Z 2026-11-05 08:42:32,132 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59314
+zk3-1  | 2026-11-05T08:42:42.353362627Z 2026-11-05 08:42:42,352 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35544
+zk3-1  | 2026-11-05T08:42:52.586796924Z 2026-11-05 08:42:52,586 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45876
+zk3-1  | 2026-11-05T08:43:02.808172304Z 2026-11-05 08:43:02,807 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38378
+zk3-1  | 2026-11-05T08:43:13.027432753Z 2026-11-05 08:43:13,027 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:44690
+zk3-1  | 2026-11-05T08:43:23.263048382Z 2026-11-05 08:43:23,262 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59266
+zk3-1  | 2026-11-05T08:43:33.491907971Z 2026-11-05 08:43:33,491 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59758
+zk3-1  | 2026-11-05T08:43:43.709378670Z 2026-11-05 08:43:43,709 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37568
+zk3-1  | 2026-11-05T08:43:53.932291924Z 2026-11-05 08:43:53,931 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:52268
+zk3-1  | 2026-11-05T08:44:04.159766263Z 2026-11-05 08:44:04,159 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38664
+zk3-1  | 2026-11-05T08:44:14.392105670Z 2026-11-05 08:44:14,391 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54020
+zk3-1  | 2026-11-05T08:44:24.622245050Z 2026-11-05 08:44:24,621 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53664
+zk3-1  | 2026-11-05T08:44:34.850633596Z 2026-11-05 08:44:34,850 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54962
+zk3-1  | 2026-11-05T08:44:45.094914795Z 2026-11-05 08:44:45,094 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57936
+zk3-1  | 2026-11-05T08:44:55.323155008Z 2026-11-05 08:44:55,322 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54728
+zk3-1  | 2026-11-05T08:45:05.555189847Z 2026-11-05 08:45:05,554 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45592
+zk3-1  | 2026-11-05T08:45:15.782821129Z 2026-11-05 08:45:15,782 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33774
+zk3-1  | 2026-11-05T08:45:26.001560175Z 2026-11-05 08:45:26,001 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48390
+zk3-1  | 2026-11-05T08:45:36.224317430Z 2026-11-05 08:45:36,224 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39062
+zk3-1  | 2026-11-05T08:45:46.458915629Z 2026-11-05 08:45:46,458 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47148
+zk3-1  | 2026-11-05T08:45:56.695383467Z 2026-11-05 08:45:56,695 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47346
+zk3-1  | 2026-11-05T08:46:06.921115666Z 2026-11-05 08:46:06,920 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56156
+zk3-1  | 2026-11-05T08:46:17.159778755Z 2026-11-05 08:46:17,159 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33422
+zk3-1  | 2026-11-05T08:46:27.379505551Z 2026-11-05 08:46:27,378 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33612
+zk3-1  | 2026-11-05T09:04:24.854332125Z 2026-11-05 09:04:24,853 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51952
+zk3-1  | 2026-11-05T09:04:35.091759630Z 2026-11-05 09:04:35,090 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57324
+zk3-1  | 2026-11-05T09:04:45.302140593Z 2026-11-05 09:04:45,301 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39696
+zk3-1  | 2026-11-05T09:04:55.489879292Z 2026-11-05 09:04:55,489 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41468
+zk3-1  | 2026-11-05T09:05:05.673000297Z 2026-11-05 09:05:05,672 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39432
+zk3-1  | 2026-11-05T09:05:13.381130467Z 2026-11-05 09:05:13,380 [myid:] - INFO  [SyncThread:3:o.a.z.s.p.FileTxnLog@291] - Creating new log file: log.100000001
+zk3-1  | 2026-11-05T09:05:13.387076342Z 2026-11-05 09:05:13,386 [myid:] - INFO  [CommitProcessor:3:o.a.z.s.q.LeaderSessionTracker@104] - Committing global session 0x10000007abf0000
+zk3-1  | 2026-11-05T09:05:15.865586093Z 2026-11-05 09:05:15,865 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36966
+zk3-1  | 2026-11-05T09:05:26.063299709Z 2026-11-05 09:05:26,062 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42090
+zk3-1  | 2026-11-05T09:05:36.249637130Z 2026-11-05 09:05:36,249 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45864
+zk3-1  | 2026-11-05T09:05:46.438943385Z 2026-11-05 09:05:46,438 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56270
+zk3-1  | 2026-11-05T09:05:56.644705376Z 2026-11-05 09:05:56,644 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57092
+zk3-1  | 2026-11-05T09:06:06.831358047Z 2026-11-05 09:06:06,831 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:35224
+zk3-1  | 2026-11-05T09:06:17.010523969Z 2026-11-05 09:06:17,010 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46202
+zk3-1  | 2026-11-05T09:06:27.187531001Z 2026-11-05 09:06:27,187 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59946
+zk3-1  | 2026-11-05T09:06:37.370467964Z 2026-11-05 09:06:37,370 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37372
+zk3-1  | 2026-11-05T09:06:47.568650344Z 2026-11-05 09:06:47,568 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48094
+zk3-1  | 2026-11-05T09:06:57.740838168Z 2026-11-05 09:06:57,740 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42276
+zk3-1  | 2026-11-05T09:07:07.919656590Z 2026-11-05 09:07:07,919 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39446
+zk3-1  | 2026-11-05T09:07:18.101802844Z 2026-11-05 09:07:18,101 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58994
+zk3-1  | 2026-11-05T09:07:28.297688710Z 2026-11-05 09:07:28,297 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53614
+zk3-1  | 2026-11-05T09:07:38.494016256Z 2026-11-05 09:07:38,493 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:42752
+zk3-1  | 2026-11-05T09:07:48.684333303Z 2026-11-05 09:07:48,684 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36584
+zk3-1  | 2026-11-05T09:07:58.887802252Z 2026-11-05 09:07:58,887 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:38264
+zk3-1  | 2026-11-05T09:08:09.068321798Z 2026-11-05 09:08:09,067 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:34462
+zk3-1  | 2026-11-05T09:08:19.265928345Z 2026-11-05 09:08:19,265 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37976
+zk3-1  | 2026-11-05T09:08:29.459065002Z 2026-11-05 09:08:29,458 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37732
+zk3-1  | 2026-11-05T09:08:39.662416507Z 2026-11-05 09:08:39,662 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58376
+zk3-1  | 2026-11-05T09:08:49.853417304Z 2026-11-05 09:08:49,853 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57608
+zk3-1  | 2026-11-05T09:09:00.043704377Z 2026-11-05 09:09:00,043 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48428
+zk3-1  | 2026-11-05T09:09:10.232677174Z 2026-11-05 09:09:10,232 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:50484
+zk3-1  | 2026-11-05T09:09:20.411388095Z 2026-11-05 09:09:20,411 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:43118
+zk3-1  | 2026-11-05T09:09:30.627254753Z 2026-11-05 09:09:30,626 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:48300
+zk3-1  | 2026-11-05T09:09:40.812179341Z 2026-11-05 09:09:40,811 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49072
+zk3-1  | 2026-11-05T09:09:50.987868887Z 2026-11-05 09:09:50,987 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33580
+zk3-1  | 2026-11-05T09:10:01.172146170Z 2026-11-05 09:10:01,171 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46454
+zk3-1  | 2026-11-05T09:10:11.357223466Z 2026-11-05 09:10:11,357 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:39086
+zk3-1  | 2026-11-05T09:10:21.528545971Z 2026-11-05 09:10:21,528 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:47096
+zk3-1  | 2026-11-05T09:10:31.703685503Z 2026-11-05 09:10:31,703 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:60850
+zk3-1  | 2026-11-05T09:10:41.878576966Z 2026-11-05 09:10:41,878 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49614
+zk3-1  | 2026-11-05T09:10:52.058489721Z 2026-11-05 09:10:52,058 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53444
+zk3-1  | 2026-11-05T09:11:02.240581087Z 2026-11-05 09:11:02,240 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57820
+zk3-1  | 2026-11-05T09:11:12.423222967Z 2026-11-05 09:11:12,423 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:57666
+zk3-1  | 2026-11-05T09:11:22.605569722Z 2026-11-05 09:11:22,605 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:50188
+zk3-1  | 2026-11-05T09:11:32.780497462Z 2026-11-05 09:11:32,780 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:49514
+zk3-1  | 2026-11-05T09:11:42.952909800Z 2026-11-05 09:11:42,952 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41214
+zk3-1  | 2026-11-05T09:11:53.147425263Z 2026-11-05 09:11:53,147 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:46150
+zk3-1  | 2026-11-05T09:12:03.317607837Z 2026-11-05 09:12:03,317 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:53154
+zk3-1  | 2026-11-05T09:12:13.495453884Z 2026-11-05 09:12:13,495 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45326
+zk3-1  | 2026-11-05T09:12:23.680752597Z 2026-11-05 09:12:23,679 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37616
+zk3-1  | 2026-11-05T09:12:33.865802838Z 2026-11-05 09:12:33,865 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:34504
+zk3-1  | 2026-11-05T09:12:44.060774134Z 2026-11-05 09:12:44,060 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:45042
+zk3-1  | 2026-11-05T09:12:48.316853969Z 2026-11-05 09:12:48,316 [myid:] - INFO  [CommitProcessor:3:o.a.z.s.q.LeaderSessionTracker@104] - Committing global session 0x10000007abf0001
+zk3-1  | 2026-11-05T09:12:54.253437416Z 2026-11-05 09:12:54,252 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:51342
+zk3-1  | 2026-11-05T09:13:04.429295463Z 2026-11-05 09:13:04,429 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56252
+zk3-1  | 2026-11-05T09:13:14.602453884Z 2026-11-05 09:13:14,602 [myid:] - INFO  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:36678
+zk3-1  | 2026-11-05T09:13:24.780230583Z 2026-11-05 09:13:24,779 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41032
+zk3-1  | 2026-11-05T09:13:34.951623255Z 2026-11-05 09:13:34,951 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:41002
+zk3-1  | 2026-11-05T09:13:45.134886510Z 2026-11-05 09:13:45,134 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:56320
+zk3-1  | 2026-11-05T09:13:55.314365292Z 2026-11-05 09:13:55,314 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:54462
+zk3-1  | 2026-11-05T09:14:05.489398297Z 2026-11-05 09:14:05,489 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:58224
+zk3-1  | 2026-11-05T09:14:15.665742552Z 2026-11-05 09:14:15,664 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:37256
+zk3-1  | 2026-11-05T09:14:25.864724084Z 2026-11-05 09:14:25,864 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:33702

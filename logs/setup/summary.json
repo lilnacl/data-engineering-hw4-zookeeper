@@ -1,0 +1,45 @@
+{
+  "checked_date": "2026-11-05",
+  "image": "zookeeper:3.9.6-jre-17",
+  "zookeeper": "3.9.6",
+  "java": "17.0.21",
+  "compose_config_valid": true,
+  "servers": [
+    {
+      "service": "zk1",
+      "myid": 1,
+      "role": "follower",
+      "health": "healthy",
+      "client_endpoint": "127.0.0.1:2181"
+    },
+    {
+      "service": "zk2",
+      "myid": 2,
+      "role": "follower",
+      "health": "healthy",
+      "client_endpoint": "127.0.0.1:2182"
+    },
+    {
+      "service": "zk3",
+      "myid": 3,
+      "role": "leader",
+      "health": "healthy",
+      "client_endpoint": "127.0.0.1:2183"
+    }
+  ],
+  "client_smoke": {
+    "create": true,
+    "get": "ready",
+    "delete": true,
+    "root_children_after_delete": [
+      "zookeeper"
+    ],
+    "exit_code": 0
+  },
+  "negative_check": {
+    "operation": "stat after delete",
+    "expected_error": "Node does not exist",
+    "expected_exit_code": 1
+  }
+}
+

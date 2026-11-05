@@ -1,0 +1,22 @@
+Проверка отсутствующего узла после удаления.
+Ожидаемый код завершения клиента: 1, поскольку stat вызывается для удалённого узла.
+
+create /hw4-setup-smoke ready
+get /hw4-setup-smoke
+delete /hw4-setup-smoke
+stat /hw4-setup-smoke
+quit
+Created /hw4-setup-smoke
+[zk: zk1:2181(CONNECTED) 1] ready
+[zk: zk1:2181(CONNECTED) 2] [zk: zk1:2181(CONNECTED) 3] Node does not exist: /hw4-setup-smoke
+[zk: zk1:2181(CONNECTED) 4] 
+WATCHER::
+
+WatchedEvent state:Closed type:None path:null zxid: -1
+2026-11-05 09:11:11,141 [myid:] - INFO  [main:o.a.z.ZooKeeper@1230] - Session: 0x10000007abf0000 closed
+2026-11-05 09:11:11,141 [myid:] - INFO  [main-EventThread:o.a.z.ClientCnxn$EventThread@556] - EventThread shut down for session: 0x10000007abf0000
+2026-11-05 09:11:11,142 [myid:] - ERROR [main:o.a.z.u.ServiceUtils@48] - Exiting JVM with code 1
+
+What's next:
+    Debug this Compose error with Gordon → docker ai "help me fix this compose error"
+

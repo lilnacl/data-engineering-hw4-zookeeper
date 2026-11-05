@@ -1,0 +1,48 @@
+{
+  "run_id": "20261105T092042Z",
+  "session_timeout_ms": 10000,
+  "three_alive_roles": {
+    "zk1": "follower",
+    "zk2": "follower",
+    "zk3": "leader"
+  },
+  "one_lost": {
+    "stopped": [
+      "zk1"
+    ],
+    "write_read_ok": true,
+    "roles": {
+      "zk1": "unavailable",
+      "zk2": "follower",
+      "zk3": "leader"
+    }
+  },
+  "two_lost": {
+    "stopped": [
+      "zk1",
+      "zk2"
+    ],
+    "write_exit_code": 1,
+    "write_unavailable": true,
+    "roles": {
+      "zk1": "unavailable",
+      "zk2": "unavailable",
+      "zk3": "unavailable"
+    }
+  },
+  "restored_roles": {
+    "zk1": "follower",
+    "zk2": "leader",
+    "zk3": "follower"
+  },
+  "persistent_data_survived": true,
+  "ephemeral": {
+    "path": "/hw4-ensemble-20261105T092042Z/ephemeral",
+    "owner": "0x1000020edef0001",
+    "exists_before_close": true,
+    "missing_after_close": true,
+    "creator_exit_code": 0,
+    "observer_after_exit_code": 1
+  },
+  "passed": true
+}

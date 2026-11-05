@@ -1,0 +1,93 @@
+[
+  {
+    "Command": "\"/docker-entrypoint.…\"",
+    "CreatedAt": "2026-11-05 11:27:36 +0300 MSK",
+    "Engine": "",
+    "ExitCode": 0,
+    "Health": "healthy",
+    "ID": "14cb24f139d9",
+    "Image": "zookeeper:3.9.6-jre-17",
+    "Labels": "com.docker.compose.project.working_dir=/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4,com.docker.compose.version=5.6.0,desktop.docker.io/ports.scheme=v2,desktop.docker.io/ports/2181/tcp=127.0.0.1:2181,org.opencontainers.image.version=22.04,com.docker.compose.config-hash=56725dd3c827825427dbd691003a717ae5a6331b71f89ea0d05f641c1ffe9e76,com.docker.compose.container-number=1,com.docker.compose.image=sha256:f06814e1219d0cb7a07e6abde8307ddc34799f191e01eb68e9071ef379534f42,com.docker.compose.project=data-engineering-hw4,com.docker.compose.project.config_files=/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/compose.yaml,com.docker.compose.service=zk1,com.docker.compose.depends_on=,com.docker.compose.oneoff=False",
+    "LocalVolumes": "3",
+    "Mounts": "data-engineeri…,data-engineeri…,e50026dc17c346…",
+    "Name": "data-engineering-hw4-zk1-1",
+    "Names": "data-engineering-hw4-zk1-1",
+    "Networks": "data-engineering-hw4_default",
+    "Ports": "127.0.0.1:2181->2181/tcp",
+    "Project": "data-engineering-hw4",
+    "Publishers": [
+      {
+        "URL": "127.0.0.1",
+        "TargetPort": 2181,
+        "PublishedPort": 2181,
+        "Protocol": "tcp"
+      }
+    ],
+    "RunningFor": "13 minutes ago",
+    "Service": "zk1",
+    "Size": "0B",
+    "State": "running",
+    "Status": "Up 13 minutes (healthy)"
+  },
+  {
+    "Command": "\"/docker-entrypoint.…\"",
+    "CreatedAt": "2026-11-05 11:27:36 +0300 MSK",
+    "Engine": "",
+    "ExitCode": 0,
+    "Health": "healthy",
+    "ID": "9b771dd3755b",
+    "Image": "zookeeper:3.9.6-jre-17",
+    "Labels": "com.docker.compose.container-number=1,com.docker.compose.depends_on=,com.docker.compose.image=sha256:f06814e1219d0cb7a07e6abde8307ddc34799f191e01eb68e9071ef379534f42,com.docker.compose.project.config_files=/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/compose.yaml,com.docker.compose.project.working_dir=/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4,com.docker.compose.service=zk2,desktop.docker.io/ports.scheme=v2,org.opencontainers.image.version=22.04,com.docker.compose.config-hash=1d6059ec48fa10b60e68ec04824ba4871161eec8a34ec214b4423769f4069f68,com.docker.compose.oneoff=False,com.docker.compose.project=data-engineering-hw4,com.docker.compose.version=5.6.0,desktop.docker.io/ports/2181/tcp=127.0.0.1:2182",
+    "LocalVolumes": "3",
+    "Mounts": "data-engineeri…,data-engineeri…,ec46b3980ce59c…",
+    "Name": "data-engineering-hw4-zk2-1",
+    "Names": "data-engineering-hw4-zk2-1",
+    "Networks": "data-engineering-hw4_default",
+    "Ports": "127.0.0.1:2182->2181/tcp",
+    "Project": "data-engineering-hw4",
+    "Publishers": [
+      {
+        "URL": "127.0.0.1",
+        "TargetPort": 2181,
+        "PublishedPort": 2182,
+        "Protocol": "tcp"
+      }
+    ],
+    "RunningFor": "13 minutes ago",
+    "Service": "zk2",
+    "Size": "0B",
+    "State": "running",
+    "Status": "Up 13 minutes (healthy)"
+  },
+  {
+    "Command": "\"/docker-entrypoint.…\"",
+    "CreatedAt": "2026-11-05 11:27:36 +0300 MSK",
+    "Engine": "",
+    "ExitCode": 0,
+    "Health": "healthy",
+    "ID": "e264c4588f07",
+    "Image": "zookeeper:3.9.6-jre-17",
+    "Labels": "com.docker.compose.oneoff=False,com.docker.compose.project=data-engineering-hw4,com.docker.compose.project.config_files=/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/compose.yaml,com.docker.compose.project.working_dir=/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4,com.docker.compose.config-hash=c6c6ede20fd0409ca9141cb2f99753bca21422d7079460ed851c969149b6a631,com.docker.compose.container-number=1,com.docker.compose.service=zk3,com.docker.compose.version=5.6.0,desktop.docker.io/ports.scheme=v2,desktop.docker.io/ports/2181/tcp=127.0.0.1:2183,org.opencontainers.image.version=22.04,com.docker.compose.depends_on=,com.docker.compose.image=sha256:f06814e1219d0cb7a07e6abde8307ddc34799f191e01eb68e9071ef379534f42",
+    "LocalVolumes": "3",
+    "Mounts": "data-engineeri…,data-engineeri…,ea926bdbf1b78f…",
+    "Name": "data-engineering-hw4-zk3-1",
+    "Names": "data-engineering-hw4-zk3-1",
+    "Networks": "data-engineering-hw4_default",
+    "Ports": "127.0.0.1:2183->2181/tcp",
+    "Project": "data-engineering-hw4",
+    "Publishers": [
+      {
+        "URL": "127.0.0.1",
+        "TargetPort": 2181,
+        "PublishedPort": 2183,
+        "Protocol": "tcp"
+      }
+    ],
+    "RunningFor": "13 minutes ago",
+    "Service": "zk3",
+    "Size": "0B",
+    "State": "running",
+    "Status": "Up 13 minutes (healthy)"
+  }
+]
+

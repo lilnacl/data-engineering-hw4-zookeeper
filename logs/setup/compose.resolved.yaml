@@ -1,0 +1,160 @@
+name: data-engineering-hw4
+services:
+  zk1:
+    restart: unless-stopped
+    environment:
+      JVMFLAGS: -Xms64m -Xmx256m
+      ZOO_4LW_COMMANDS_WHITELIST: srvr,stat,mntr,ruok
+      ZOO_ADMINSERVER_ENABLED: "false"
+      ZOO_INIT_LIMIT: "10"
+      ZOO_MY_ID: "1"
+      ZOO_SERVERS: server.1=zk1:2888:3888;2181 server.2=zk2:2888:3888;2181 server.3=zk3:2888:3888;2181
+      ZOO_STANDALONE_ENABLED: "false"
+      ZOO_SYNC_LIMIT: "5"
+      ZOO_TICK_TIME: "2000"
+    hostname: zk1
+    image: zookeeper:3.9.6-jre-17
+    networks:
+      default: null
+    volumes:
+      - type: volume
+        source: zk1-data
+        target: /data
+        volume: {}
+      - type: volume
+        source: zk1-datalog
+        target: /datalog
+        volume: {}
+    healthcheck:
+      test:
+        - CMD
+        - zkServer.sh
+        - status
+      timeout: 5s
+      interval: 10s
+      retries: 12
+      start_period: 15s
+    ports:
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 2181
+        published: "2181"
+        protocol: tcp
+  zk2:
+    restart: unless-stopped
+    environment:
+      JVMFLAGS: -Xms64m -Xmx256m
+      ZOO_4LW_COMMANDS_WHITELIST: srvr,stat,mntr,ruok
+      ZOO_ADMINSERVER_ENABLED: "false"
+      ZOO_INIT_LIMIT: "10"
+      ZOO_MY_ID: "2"
+      ZOO_SERVERS: server.1=zk1:2888:3888;2181 server.2=zk2:2888:3888;2181 server.3=zk3:2888:3888;2181
+      ZOO_STANDALONE_ENABLED: "false"
+      ZOO_SYNC_LIMIT: "5"
+      ZOO_TICK_TIME: "2000"
+    hostname: zk2
+    image: zookeeper:3.9.6-jre-17
+    networks:
+      default: null
+    volumes:
+      - type: volume
+        source: zk2-data
+        target: /data
+        volume: {}
+      - type: volume
+        source: zk2-datalog
+        target: /datalog
+        volume: {}
+    healthcheck:
+      test:
+        - CMD
+        - zkServer.sh
+        - status
+      timeout: 5s
+      interval: 10s
+      retries: 12
+      start_period: 15s
+    ports:
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 2181
+        published: "2182"
+        protocol: tcp
+  zk3:
+    restart: unless-stopped
+    environment:
+      JVMFLAGS: -Xms64m -Xmx256m
+      ZOO_4LW_COMMANDS_WHITELIST: srvr,stat,mntr,ruok
+      ZOO_ADMINSERVER_ENABLED: "false"
+      ZOO_INIT_LIMIT: "10"
+      ZOO_MY_ID: "3"
+      ZOO_SERVERS: server.1=zk1:2888:3888;2181 server.2=zk2:2888:3888;2181 server.3=zk3:2888:3888;2181
+      ZOO_STANDALONE_ENABLED: "false"
+      ZOO_SYNC_LIMIT: "5"
+      ZOO_TICK_TIME: "2000"
+    hostname: zk3
+    image: zookeeper:3.9.6-jre-17
+    networks:
+      default: null
+    volumes:
+      - type: volume
+        source: zk3-data
+        target: /data
+        volume: {}
+      - type: volume
+        source: zk3-datalog
+        target: /datalog
+        volume: {}
+    healthcheck:
+      test:
+        - CMD
+        - zkServer.sh
+        - status
+      timeout: 5s
+      interval: 10s
+      retries: 12
+      start_period: 15s
+    ports:
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 2181
+        published: "2183"
+        protocol: tcp
+networks:
+  default:
+    name: data-engineering-hw4_default
+volumes:
+  zk1-data:
+    name: data-engineering-hw4_zk1-data
+  zk1-datalog:
+    name: data-engineering-hw4_zk1-datalog
+  zk2-data:
+    name: data-engineering-hw4_zk2-data
+  zk2-datalog:
+    name: data-engineering-hw4_zk2-datalog
+  zk3-data:
+    name: data-engineering-hw4_zk3-data
+  zk3-datalog:
+    name: data-engineering-hw4_zk3-datalog
+x-zookeeper:
+  healthcheck:
+    interval: 10s
+    retries: 12
+    start_period: 15s
+    test:
+      - CMD
+      - zkServer.sh
+      - status
+    timeout: 5s
+  image: zookeeper:3.9.6-jre-17
+  restart: unless-stopped
+x-zookeeper-environment:
+  JVMFLAGS: -Xms64m -Xmx256m
+  ZOO_4LW_COMMANDS_WHITELIST: srvr,stat,mntr,ruok
+  ZOO_ADMINSERVER_ENABLED: "false"
+  ZOO_INIT_LIMIT: "10"
+  ZOO_SERVERS: server.1=zk1:2888:3888;2181 server.2=zk2:2888:3888;2181 server.3=zk3:2888:3888;2181
+  ZOO_STANDALONE_ENABLED: "false"
+  ZOO_SYNC_LIMIT: "5"
+  ZOO_TICK_TIME: "2000"
+

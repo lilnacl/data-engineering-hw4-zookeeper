@@ -1,0 +1,65 @@
+[
+  {
+    "event": "started",
+    "actor": "A",
+    "pid": 20282,
+    "command": [
+      "/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/.venv/bin/python",
+      "-m",
+      "hw4.coordinator",
+      "--id",
+      "A",
+      "--hosts",
+      "127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183",
+      "--root",
+      "/hw4/runs/20261105T095054Z-without-fencing",
+      "--source",
+      "/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/work/it_vacancies_2024.csv",
+      "--work",
+      "/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/work/20261105T095054Z-without-fencing",
+      "--log",
+      "/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/logs/failover/20261105T095054Z-without-fencing/A.log",
+      "--delay",
+      "0.12"
+    ],
+    "FENCING": 0
+  },
+  {
+    "event": "started",
+    "actor": "B",
+    "pid": 20284,
+    "command": [
+      "/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/.venv/bin/python",
+      "-m",
+      "hw4.coordinator",
+      "--id",
+      "B",
+      "--hosts",
+      "127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183",
+      "--root",
+      "/hw4/runs/20261105T095054Z-without-fencing",
+      "--source",
+      "/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/work/it_vacancies_2024.csv",
+      "--work",
+      "/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/work/20261105T095054Z-without-fencing",
+      "--log",
+      "/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/logs/failover/20261105T095054Z-without-fencing/B.log",
+      "--delay",
+      "0.12"
+    ],
+    "FENCING": 0
+  },
+  {
+    "event": "SIGSTOP",
+    "actor": "A",
+    "monotonic_ns": 1335922933137916,
+    "wall_time": "2026-11-05T09:50:56.275780+00:00",
+    "checkpoint_observed": 8
+  },
+  {
+    "event": "SIGCONT",
+    "actor": "A",
+    "monotonic_ns": 1335962991412458,
+    "actual_pause_seconds": 40.058195209
+  }
+]

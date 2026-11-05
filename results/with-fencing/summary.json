@@ -1,0 +1,38 @@
+{
+  "run_id": "20261105T095153Z-with-fencing",
+  "fencing": true,
+  "zk_root": "/hw4/runs/20261105T095153Z-with-fencing",
+  "session_timeout_ms": 10000,
+  "leader_switch_seconds": 11.83265675,
+  "pause_seconds": 40.066117833,
+  "backup_resumed_next_chunk": 8,
+  "backup_finished_before_resume": true,
+  "published_count": 1,
+  "pointer_version": 1,
+  "pointer": {
+    "path": "/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/work/20261105T095153Z-with-fencing/candidates/epoch-2-B.json",
+    "sha256": "536095da61d6f3985fe70f15cdd36da71131733c226da1233e96784a5772ef58",
+    "coordinator": "B",
+    "epoch": 2,
+    "source_sha256": "303db922b541e4440906f5a7e8be32fb55e8808f950ffddb8c272f1548212a65",
+    "rows": 229388,
+    "selected_rows": 3123,
+    "unique_pairs": 13552,
+    "pair_occurrences": 61694
+  },
+  "epoch": 2,
+  "epoch_version": 2,
+  "checkpoint_pointer": {
+    "path": "/Users/nastavdovina/работки/ВК Инженерия данных/ДЗ4/work/20261105T095153Z-with-fencing/checkpoints/epoch-2/chunk-000115.json",
+    "sha256": "233a621ad6c674c2c259171355a56c34ae426c7c6538ff0193186dae8dcf9eaa",
+    "epoch": 2,
+    "next_chunk": 115
+  },
+  "checkpoint_version": 115,
+  "old_leader_error": "BadVersionError",
+  "pair_differences_from_hw3": {
+    "A": 0,
+    "B": 0
+  },
+  "passed": true
+}
